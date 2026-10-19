@@ -9,6 +9,7 @@ import "@fontsource-variable/noto-serif-sc";
 import "./globals.css";
 import "./reading-room.css";
 import "./shelf-home.css";
+import "./overview.css";
 
 export const metadata: Metadata = {
   title: {

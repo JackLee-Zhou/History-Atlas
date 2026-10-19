@@ -24,6 +24,19 @@ export const FACTION_COLORS = [
   "#0f766e",
 ] as const;
 
+/** Distinct palette for the AI overview; deliberately more saturated than
+ * the scene atlas palette so neighbouring provinces stay distinguishable. */
+export const OVERVIEW_POWER_COLORS = [
+  "#b33a3a",
+  "#2b5f9e",
+  "#2f7d54",
+  "#c08a2e",
+  "#7b4fa0",
+  "#1f7f85",
+  "#c04f75",
+  "#5c677d",
+] as const;
+
 export const DEFAULT_FACTION_COLOR = "#5b5346";
 
 export const PLACE_CATEGORY_LABELS = {

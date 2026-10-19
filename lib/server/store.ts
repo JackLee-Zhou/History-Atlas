@@ -9,11 +9,13 @@ import {
   bookSchema,
   chapterSchema,
   correctionSchema,
+  overviewSchema,
   storedSettingsSchema,
   type Analysis,
   type Book,
   type Chapter,
   type Correction,
+  type Overview,
   type SettingsView,
   type SettingsUpdate,
   type StoredSettings,
@@ -106,6 +108,17 @@ function initializeDatabase(db: DatabaseSync): void {
       data TEXT NOT NULL,
       updated_at TEXT NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS overviews (
+      key TEXT PRIMARY KEY,
+      book_id TEXT NOT NULL,
+      chapter_id TEXT NOT NULL,
+      created_at TEXT NOT NULL,
+      data TEXT NOT NULL,
+      FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE
+    );
+    CREATE INDEX IF NOT EXISTS overviews_book_chapter
+      ON overviews(book_id, chapter_id, created_at DESC);
   `);
 
   // Lightweight migration for databases created before cache rows were scoped
@@ -300,6 +313,7 @@ export async function deleteBook(id: string): Promise<void> {
     db.prepare("DELETE FROM analyses WHERE book_id = ?").run(id);
     db.prepare("DELETE FROM corrections WHERE book_id = ?").run(id);
     db.prepare("DELETE FROM analysis_cache WHERE book_id = ?").run(id);
+    db.prepare("DELETE FROM overviews WHERE book_id = ?").run(id);
   });
 }
 
@@ -411,6 +425,51 @@ export async function setCachedAnalysis(
       }
     });
   }
+}
+
+/* ------------------------------------------------------------------ */
+/* Overview cache                                                      */
+/* ------------------------------------------------------------------ */
+
+function parseOverviewRow(row: unknown): Overview | null {
+  if (!row || typeof row !== "object") return null;
+  const data = (row as { data?: unknown }).data;
+  if (typeof data !== "string") return null;
+  try {
+    const parsed = overviewSchema.safeParse(JSON.parse(data) as unknown);
+    return parsed.success ? parsed.data : null;
+  } catch {
+    return null;
+  }
+}
+
+export async function getCachedOverview(key: string): Promise<Overview | null> {
+  if (!/^[a-f0-9]{64}$/.test(key)) return null;
+  const db = getDatabase();
+  const row = db
+    .prepare("SELECT data FROM overviews WHERE key = ?")
+    .get(key);
+  return parseOverviewRow(row);
+}
+
+export async function setCachedOverview(
+  key: string,
+  bookId: string,
+  chapterId: string,
+  overview: Overview,
+): Promise<void> {
+  if (!/^[a-f0-9]{64}$/.test(key)) throw new Error("invalid overview cache key");
+  const parsed = overviewSchema.parse(overview);
+  const db = getDatabase();
+  db.prepare(`
+    INSERT INTO overviews (key, book_id, chapter_id, created_at, data)
+    VALUES (?, ?, ?, ?, ?)
+    ON CONFLICT(key) DO UPDATE SET
+      book_id = excluded.book_id,
+      chapter_id = excluded.chapter_id,
+      created_at = excluded.created_at,
+      data = excluded.data
+  `).run(key, bookId, chapterId, new Date().toISOString(), JSON.stringify(parsed));
 }
 
 /* ------------------------------------------------------------------ */

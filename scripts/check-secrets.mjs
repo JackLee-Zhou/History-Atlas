@@ -7,6 +7,7 @@ const root = process.cwd();
 const skipDirs = new Set([
   "node_modules",
   ".next",
+  ".next-dev",
   ".next-e2e",
   ".data",
   ".data-e2e",

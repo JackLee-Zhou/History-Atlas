@@ -567,3 +567,10 @@
     background-color: var(--paper);
   }
 }
+
+/* Keep active ribbon actions legible on hover; the generic ribbon hover
+   background would otherwise override the primary fill. */
+.workspace-ribbon .btn-primary:hover {
+  background: color-mix(in srgb, var(--cinnabar) 88%, #000 4%);
+  color: #fff8ea;
+}

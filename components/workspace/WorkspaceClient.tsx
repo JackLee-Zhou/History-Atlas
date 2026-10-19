@@ -12,6 +12,7 @@ import { useRouter } from "next/navigation";
 import useSWR from "swr";
 import Link from "next/link";
 import {
+  Globe2,
   GripVertical,
   Map as MapIcon,
   PanelRightOpen,
@@ -20,18 +21,21 @@ import {
 import { AppHeader } from "@/components/layout/AppHeader";
 import { ReaderPane } from "@/components/reader/ReaderPane";
 import { AtlasWorkspace } from "@/components/atlas";
+import { OverviewWorkspace } from "@/components/atlas/overview-workspace";
 import type { AtlasSelection } from "@/lib/geo";
 import { ModelStatusBadge } from "@/components/workspace/ModelStatusBadge";
 import { ReadingBackgroundPicker } from "@/components/theme/ReadingBackgroundPicker";
 import { useAnalysisRunner } from "@/components/workspace/useAnalysisRunner";
 import { Button } from "@/components/ui/button";
 import { Select } from "@/components/ui/select";
-import { fetchJson } from "@/lib/client/http";
+import { errorMessage, fetchJson } from "@/lib/client/http";
+import { toast } from "sonner";
 import type {
   Analysis,
   Book,
   Chapter,
   Citation,
+  Overview,
   SettingsView,
 } from "@/lib/schema";
 import type { AnalyzeRequest } from "@/lib/client/reader";
@@ -80,6 +84,10 @@ export function WorkspaceClient({
   const [activeSceneIndex, setActiveSceneIndex] = useState(0);
   const [readerRatio, setReaderRatio] = useState(0.52);
   const [atlasCollapsed, setAtlasCollapsed] = useState(false);
+  const [overview, setOverview] = useState<Overview | null>(null);
+  const [overviewOpen, setOverviewOpen] = useState(false);
+  const [overviewLoading, setOverviewLoading] = useState(false);
+  const [overviewError, setOverviewError] = useState<string | null>(null);
   const splitRef = useRef<HTMLDivElement | null>(null);
   const [selectedFeature, setSelectedFeature] =
     useState<AtlasSelection | null>(null);
@@ -193,6 +201,15 @@ export function WorkspaceClient({
     }
   }, [book.id, chapter.id]);
 
+  /* eslint-disable react-hooks/set-state-in-effect -- reset on chapter navigation */
+  useEffect(() => {
+    setOverview(null);
+    setOverviewOpen(false);
+    setOverviewLoading(false);
+    setOverviewError(null);
+  }, [book.id, chapter.id]);
+  /* eslint-enable react-hooks/set-state-in-effect */
+
   const citationById = useMemo(() => {
     const map = new Map<string, Citation>();
     for (const citation of analysis?.situation.citations ?? []) {
@@ -202,6 +219,7 @@ export function WorkspaceClient({
   }, [analysis]);
 
   const runChapter = useCallback(async () => {
+    setOverviewOpen(false);
     await run({
       bookId: book.id,
       chapterId: chapter.id,
@@ -217,6 +235,53 @@ export function WorkspaceClient({
     autoRanChapterRef.current = chapter.id;
     void runChapter();
   }, [analysis, busy, chapter.id, restoring, runChapter, settings?.autoAnalyze]);
+
+  const loadOverview = useCallback(
+    async (refresh = false): Promise<void> => {
+      if (settings?.provider === "rule") {
+        toast.error("请先在设置页配置模型服务，再生成天下大势。");
+        return;
+      }
+      setOverviewOpen(true);
+      setAtlasCollapsed(false);
+      setMobileTab("atlas");
+      if (!refresh && overview) return;
+      setOverviewLoading(true);
+      setOverviewError(null);
+      try {
+        const result = await fetchJson<{ overview: Overview }>(
+          "/api/overview",
+          {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({
+              bookId: book.id,
+              chapterId: chapter.id,
+              refresh,
+            }),
+          },
+        );
+        setOverview(result.overview);
+      } catch (loadError) {
+        setOverviewError(errorMessage(loadError));
+      } finally {
+        setOverviewLoading(false);
+      }
+    },
+    [book.id, chapter.id, overview, settings],
+  );
+
+  const toggleOverview = useCallback(() => {
+    if (overviewOpen) {
+      setOverviewOpen(false);
+      return;
+    }
+    void loadOverview();
+  }, [loadOverview, overviewOpen]);
+
+  // The button can attempt generation even before /api/settings resolves;
+  // the API returns a clear PROVIDER_NOT_CONFIGURED error when no model is set.
+  const canUseOverview = settings?.provider !== "rule";
 
   const handleAnalyze = useCallback(
     (input: AnalyzeRequest) => {
@@ -500,6 +565,26 @@ export function WorkspaceClient({
           </div>
           <Button
             size="sm"
+            variant={overviewOpen ? "primary" : "outline"}
+            onClick={toggleOverview}
+            disabled={!canUseOverview || overviewLoading || chapter.text.length === 0}
+            aria-label="天下大势"
+            aria-pressed={overviewOpen}
+            title={
+              canUseOverview
+                ? "按当前章节年代推演全国省域大势"
+                : "配置模型服务后可用"
+            }
+          >
+            {overviewLoading ? (
+              <Globe2 className="h-4 w-4 animate-pulse" aria-hidden />
+            ) : (
+              <Globe2 className="h-4 w-4" aria-hidden />
+            )}
+            <span className="hidden sm:inline">天下大势</span>
+          </Button>
+          <Button
+            size="sm"
             variant="outline"
             onClick={() => void runChapter()}
             disabled={busy || chapter.text.length === 0}
@@ -617,6 +702,18 @@ export function WorkspaceClient({
           <PanelRightOpen className="h-4 w-4" aria-hidden />
           <span style={{ writingMode: "vertical-rl" }}>舆图</span>
         </button>
+      ) : null}
+
+      {overviewOpen ? (
+        <div className="overview-overlay">
+          <OverviewWorkspace
+            overview={overview}
+            loading={overviewLoading}
+            error={overviewError}
+            onClose={() => setOverviewOpen(false)}
+            onRetry={() => void loadOverview(true)}
+          />
+        </div>
       ) : null}
 
     </main>

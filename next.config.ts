@@ -4,8 +4,12 @@ const nextConfig: NextConfig = {
   // Produce a minimal server bundle only for the Docker build. Keeping local
   // builds in the standard output mode preserves `next start` for development.
   output: process.env.DOCKER_BUILD === "1" ? "standalone" : undefined,
-  // Playwright uses an isolated build directory so it can run beside dev.
-  distDir: process.env.NEXT_DIST_DIR?.trim() || ".next",
+  // Keep the dev compiler cache separate from production `next build`.
+  // Sharing `.next` between `next dev` and `next build` can leave Turbopack's
+  // hot-reload cache inconsistent and cause a full-page reload loop.
+  distDir:
+    process.env.NEXT_DIST_DIR?.trim() ||
+    (process.env.NODE_ENV === "development" ? ".next-dev" : ".next"),
   poweredByHeader: false,
   // Keep Turbopack scoped to this repo (the parent workspace has unrelated locks).
   turbopack: { root: process.cwd() },

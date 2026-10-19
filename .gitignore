@@ -1,0 +1,26 @@
+node_modules/
+.next/
+.next-e2e/
+out/
+build/
+.data/
+.data-e2e/
+.npm-cache/
+coverage/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+!.env.test.example
+next-env.d.ts
+*.tsbuildinfo
+
+.taste-skill/
+
+# Local agent instructions (not part of the public repository)
+AGENTS.md

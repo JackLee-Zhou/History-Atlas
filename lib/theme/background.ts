@@ -1,0 +1,36 @@
+/** Shared with the pre-hydration boot script in app/layout.tsx. */
+export const BACKGROUND_STORAGE_KEY = "history-atlas.reading-background-v2";
+
+/** Dark-theme CSS custom properties. Keep in sync with DARK_PALETTE. */
+export const NIGHT_THEME_VARS: Record<string, string> = {
+  "--paper": "#171716",
+  "--color-paper": "#171716",
+  "--paper-deep": "#0f0f0e",
+  "--color-paper-deep": "#0f0f0e",
+  "--paper-dark": "#0b0b0a",
+  "--color-paper-dark": "#0b0b0a",
+  "--ink": "#ece6da",
+  "--color-ink": "#ece6da",
+  "--ink-soft": "#c9c0b0",
+  "--color-ink-soft": "#c9c0b0",
+  "--ink-faint": "#988f7f",
+  "--color-ink-faint": "#988f7f",
+  "--line": "#4b4439",
+  "--color-line": "#4b4439",
+  "--surface": "#24211d",
+  "--color-surface": "#24211d",
+  "--surface-soft": "#2e2a24",
+  "--color-surface-soft": "#2e2a24",
+  "--cinnabar": "#d46c5f",
+  "--color-cinnabar": "#d46c5f",
+  "--cinnabar-soft": "#e08b80",
+  "--color-cinnabar-soft": "#e08b80",
+  "--gold": "#d2a44c",
+  "--color-gold": "#d2a44c",
+  "--moss": "#7fb69a",
+  "--color-moss": "#7fb69a",
+  "--indigo": "#8fb0d8",
+  "--color-indigo": "#8fb0d8",
+  "--panel-inset": "rgba(255,255,255,0.04)",
+  "--panel-shadow": "rgba(0,0,0,0.35)",
+};

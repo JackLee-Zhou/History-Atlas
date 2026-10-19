@@ -1,0 +1,209 @@
+{
+  "id": "fixture-chibi-atlas",
+  "bookId": "fixture-book",
+  "chapterId": "fixture-chapter",
+  "scope": "selection",
+  "excerpt": {
+    "start": 0,
+    "end": 120,
+    "textHash": "fixture-text-hash"
+  },
+  "meta": {
+    "provider": "mock",
+    "model": "fixture",
+    "promptVersion": "p1",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "cacheHit": false,
+    "warnings": []
+  },
+  "situation": {
+    "title": "赤壁之战（演示数据）",
+    "timeLabel": "建安十三年",
+    "period": {
+      "label": "东汉建安十三年",
+      "startYear": 208,
+      "endYear": 208,
+      "confidence": 0.8
+    },
+    "summary": {
+      "overview": "曹操军自江陵顺江东下，与孙刘联军在赤壁一带相遇；曹军失利后经华容道退走。",
+      "keyPoints": [
+        "江陵是曹军东下的起点，兼具补给与集结作用。",
+        "赤壁位于长江南岸，是双方接触与交战的核心地点。",
+        "华容道是曹军退却方向上的关键通道，具体线路尚有争议。"
+      ],
+      "uncertainty": [
+        "赤壁古战场的确切位置仍有多种说法，演示数据仅取一例。",
+        "华容道所经的具体水道与今日地貌差异较大，暂列待考。"
+      ]
+    },
+    "factions": [
+      {
+        "id": "faction-cao",
+        "name": "曹操军",
+        "color": "#9b2c2c"
+      },
+      {
+        "id": "faction-sunliu",
+        "name": "孙刘联军",
+        "color": "#2c5282"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-jiangling",
+        "name": "江陵",
+        "category": "city",
+        "factionId": "faction-cao",
+        "role": "曹军集结与补给",
+        "modernName": "湖北荆州",
+        "location": {
+          "lat": 30.35,
+          "lng": 112.19,
+          "precision": "city",
+          "confidence": 0.78,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": ["citation-advance"]
+      },
+      {
+        "id": "place-chibi",
+        "name": "赤壁",
+        "category": "battlefield",
+        "factionId": "faction-sunliu",
+        "role": "双方交战地点",
+        "modernName": "湖北赤壁市西北",
+        "location": {
+          "lat": 29.72,
+          "lng": 113.9,
+          "precision": "site",
+          "confidence": 0.55,
+          "radiusKm": 8,
+          "source": "demo"
+        },
+        "evidence": ["citation-chibi"]
+      },
+      {
+        "id": "place-huarong",
+        "name": "华容道",
+        "category": "pass",
+        "factionId": "faction-cao",
+        "role": "曹军退路",
+        "modernName": "湖北监利一带",
+        "unresolved": {
+          "reason": "文献只记「华容道」，古今水道与地貌变迁使具体线路难以确定。",
+          "candidates": [
+            {
+              "label": "湖北监利一带",
+              "lat": 29.6,
+              "lng": 112.9
+            },
+            {
+              "label": "湖南华容一带",
+              "lat": 29.53,
+              "lng": 112.56
+            }
+          ]
+        },
+        "evidence": ["citation-huarong"]
+      }
+    ],
+    "routes": [
+      {
+        "id": "route-advance",
+        "factionId": "faction-cao",
+        "fromPlaceId": "place-jiangling",
+        "toPlaceId": "place-chibi",
+        "kind": "advance",
+        "label": "曹军顺江东下",
+        "evidence": ["citation-advance"]
+      },
+      {
+        "id": "route-retreat",
+        "factionId": "faction-cao",
+        "fromPlaceId": "place-chibi",
+        "toPlaceId": "place-jiangling",
+        "kind": "retreat",
+        "label": "曹军退走",
+        "evidence": ["citation-retreat"]
+      }
+    ],
+    "controlAreas": [
+      {
+        "id": "area-cao",
+        "factionId": "faction-cao",
+        "name": "曹军控制区（示意）",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [111.9, 29.5],
+              [113.4, 29.5],
+              [113.4, 30.6],
+              [111.9, 30.6],
+              [111.9, 29.5]
+            ]
+          ]
+        },
+        "schematic": true,
+        "evidence": ["citation-advance"]
+      }
+    ],
+    "frontLines": [
+      {
+        "id": "frontline-chibi",
+        "factionIds": ["faction-cao", "faction-sunliu"],
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [112.6, 29.75],
+            [113.2, 29.9],
+            [113.75, 29.85]
+          ]
+        },
+        "schematic": true,
+        "evidence": ["citation-chibi", "citation-advance"]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene-advance",
+        "index": 0,
+        "title": "曹军东下",
+        "timeLabel": "建安十三年秋",
+        "summary": "曹军自江陵沿江东进，孙刘联军在赤壁一带迎击。",
+        "placeIds": ["place-jiangling", "place-chibi", "place-huarong"],
+        "routeIds": ["route-advance", "route-retreat"],
+        "areaIds": ["area-cao"],
+        "frontLineIds": ["frontline-chibi"]
+      }
+    ],
+    "citations": [
+      {
+        "id": "citation-advance",
+        "quote": "操自江陵将顺江东下。",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "id": "citation-chibi",
+        "quote": "与操遇于赤壁。",
+        "start": 11,
+        "end": 18
+      },
+      {
+        "id": "citation-retreat",
+        "quote": "操引军从华容道步走。",
+        "start": 30,
+        "end": 40
+      },
+      {
+        "id": "citation-huarong",
+        "quote": "遇泥泞，道不通。",
+        "start": 40,
+        "end": 48
+      }
+    ]
+  }
+}

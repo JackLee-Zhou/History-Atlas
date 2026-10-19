@@ -1,0 +1,813 @@
+{
+  "id": "demo-chibi-analysis",
+  "bookId": "demo-three-kingdoms",
+  "chapterId": "chi-bi-50",
+  "scope": "chapter",
+  "excerpt": {
+    "start": 0,
+    "end": 3931,
+    "textHash": "a6273d922334cacb5dff9e22908d057679adc126ca6e7573174db0ea13909fe4"
+  },
+  "meta": {
+    "provider": "demo",
+    "model": "curated",
+    "promptVersion": "p1",
+    "createdAt": "2026-10-18T00:00:00.000Z",
+    "cacheHit": false,
+    "warnings": []
+  },
+  "situation": {
+    "title": "赤壁之战：火攻、追亡与华容道",
+    "timeLabel": "建安十三年（208年）",
+    "period": {
+      "label": "东汉建安十三年",
+      "startYear": 208,
+      "endYear": 208,
+      "confidence": 0.95
+    },
+    "summary": {
+      "overview": "建安十三年冬，孙刘联军在赤壁以火攻大破曹操水军。曹操自乌林一路北撤，经彝陵、葫芦口转走华容道，最终入南郡、奔许昌；关羽奉命埋伏华容道，因旧恩放走曹操。",
+      "keyPoints": [
+        "黄盖诈降，火船撞入曹军水寨，火借东南风蔓延至岸上营寨。",
+        "曹操弃赤壁水寨，先奔乌林，再望彝陵，沿南彝陵、葫芦口转走华容道。",
+        "赵云、张飞分别在乌林之西、葫芦口设伏，曹操损兵折将。",
+        "关羽在华容道截住曹操，念旧恩将其放走，随后空身回夏口。",
+        "曹操退回南郡后分派曹仁守荆州、夏侯惇守襄阳、张辽守合肥，自回许昌。"
+      ],
+      "uncertainty": [
+        "本条为内置人工样板，非模型生成；仅据《三国演义》第五十回文本整理。",
+        "古地名坐标为今地近似值；乌林、华容道、三江口等位置学界有争议，本图仅作示意。",
+        "控制区与对峙线为手工凸包/连线示意，不代表实际控制边界或精确阵线。",
+        "部分地名（如黄州、三江口）为后世或小说地名，定位置信度较低。"
+      ]
+    },
+    "factions": [
+      {
+        "id": "cao",
+        "name": "曹操军",
+        "color": "#9b2c2c",
+        "note": "赤壁战败后向北撤退"
+      },
+      {
+        "id": "sunliu",
+        "name": "孙刘联军",
+        "color": "#2c5282",
+        "note": "周瑜水军与刘备、关羽部"
+      }
+    ],
+    "places": [
+      {
+        "id": "chi-bi",
+        "name": "赤壁",
+        "category": "battlefield",
+        "factionId": "sunliu",
+        "role": "赤壁火攻主战场",
+        "modernName": "赤壁市赤壁镇",
+        "location": {
+          "lat": 29.72647,
+          "lng": 113.93091,
+          "precision": "site",
+          "confidence": 0.6,
+          "radiusKm": 3,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-01",
+          "cit-02"
+        ]
+      },
+      {
+        "id": "san-jiang-kou",
+        "name": "三江口",
+        "category": "ferry",
+        "factionId": "sunliu",
+        "role": "周瑜水军基地（三江口，鄂州说，位置示意）",
+        "modernName": "鄂州市",
+        "location": {
+          "lat": 30.38,
+          "lng": 114.86,
+          "precision": "county",
+          "confidence": 0.35,
+          "radiusKm": 12,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-02"
+        ]
+      },
+      {
+        "id": "wu-lin",
+        "name": "乌林",
+        "category": "battlefield",
+        "factionId": "cao",
+        "role": "曹操屯粮处与败退第一站",
+        "modernName": "洪湖市乌林镇",
+        "location": {
+          "lat": 29.8697,
+          "lng": 113.6203,
+          "precision": "county",
+          "confidence": 0.5,
+          "radiusKm": 12,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-03",
+          "cit-04",
+          "cit-20"
+        ]
+      },
+      {
+        "id": "cao-water-camp",
+        "name": "曹军水寨",
+        "category": "camp",
+        "factionId": "cao",
+        "role": "乌林江岸曹军水寨（位置示意）",
+        "modernName": "洪湖市乌林镇江岸",
+        "location": {
+          "lat": 29.88,
+          "lng": 113.64,
+          "precision": "county",
+          "confidence": 0.5,
+          "radiusKm": 12,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-23"
+        ]
+      },
+      {
+        "id": "yi-ling",
+        "name": "夷陵",
+        "category": "city",
+        "factionId": "cao",
+        "role": "曹操自乌林退往彝陵",
+        "modernName": "宜昌市",
+        "location": {
+          "lat": 30.692,
+          "lng": 111.287,
+          "precision": "city",
+          "confidence": 0.8,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-05"
+        ]
+      },
+      {
+        "id": "hu-lu-gu",
+        "name": "葫芦谷",
+        "category": "pass",
+        "role": "张飞伏兵处，小说地名",
+        "modernName": "宜昌市",
+        "location": {
+          "lat": 30.7,
+          "lng": 111.29,
+          "precision": "city",
+          "confidence": 0.25,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-06",
+          "cit-19"
+        ]
+      },
+      {
+        "id": "hua-rong-dao",
+        "name": "华容道",
+        "category": "pass",
+        "role": "曹操败退与关羽伏兵之地",
+        "modernName": "监利市",
+        "location": {
+          "lat": 29.8402,
+          "lng": 112.9048,
+          "precision": "county",
+          "confidence": 0.5,
+          "radiusKm": 12,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-07",
+          "cit-08",
+          "cit-17"
+        ]
+      },
+      {
+        "id": "nan-jun",
+        "name": "南郡",
+        "category": "region",
+        "factionId": "cao",
+        "role": "南郡治所，曹操败退落脚处",
+        "modernName": "荆州市",
+        "location": {
+          "lat": 30.3542,
+          "lng": 112.1883,
+          "precision": "city",
+          "confidence": 0.7,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-11"
+        ]
+      },
+      {
+        "id": "jiang-ling",
+        "name": "江陵",
+        "category": "city",
+        "factionId": "cao",
+        "role": "南郡治所江陵，曹操退兵目标",
+        "modernName": "荆州市荆州区",
+        "location": {
+          "lat": 30.3542,
+          "lng": 112.1883,
+          "precision": "city",
+          "confidence": 0.8,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-16"
+        ]
+      },
+      {
+        "id": "jing-zhou",
+        "name": "荆州",
+        "category": "city",
+        "factionId": "cao",
+        "role": "曹操委曹仁据守",
+        "modernName": "荆州区",
+        "location": {
+          "lat": 30.3542,
+          "lng": 112.1883,
+          "precision": "city",
+          "confidence": 0.85,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-13"
+        ]
+      },
+      {
+        "id": "xiang-yang",
+        "name": "襄阳",
+        "category": "city",
+        "factionId": "cao",
+        "role": "曹操委夏侯惇据守",
+        "modernName": "襄阳市",
+        "location": {
+          "lat": 32.01,
+          "lng": 112.122,
+          "precision": "city",
+          "confidence": 0.9,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-13"
+        ]
+      },
+      {
+        "id": "xu-chang",
+        "name": "许昌",
+        "category": "city",
+        "factionId": "cao",
+        "role": "曹操退回的后方基地",
+        "modernName": "许昌市",
+        "location": {
+          "lat": 34.037,
+          "lng": 113.852,
+          "precision": "city",
+          "confidence": 0.9,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-12"
+        ]
+      },
+      {
+        "id": "he-fei",
+        "name": "合肥",
+        "category": "city",
+        "factionId": "cao",
+        "role": "曹操命张辽等保守的江淮要地",
+        "modernName": "合肥市",
+        "location": {
+          "lat": 31.8206,
+          "lng": 117.2273,
+          "precision": "city",
+          "confidence": 0.85,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-14"
+        ]
+      },
+      {
+        "id": "yi-du",
+        "name": "宜都",
+        "category": "city",
+        "factionId": "cao",
+        "role": "乌林之西、宜都之北，曹操败退经过",
+        "modernName": "宜都市",
+        "location": {
+          "lat": 30.38,
+          "lng": 111.45,
+          "precision": "county",
+          "confidence": 0.6,
+          "radiusKm": 12,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-04"
+        ]
+      },
+      {
+        "id": "xia-kou",
+        "name": "夏口",
+        "category": "ferry",
+        "factionId": "sunliu",
+        "role": "刘备军后方，关羽放曹后回此",
+        "modernName": "武汉市",
+        "location": {
+          "lat": 30.595,
+          "lng": 114.2975,
+          "precision": "city",
+          "confidence": 0.55,
+          "radiusKm": 30,
+          "source": "demo"
+        },
+        "evidence": [
+          "cit-15"
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "id": "r-chibi-wulin",
+        "factionId": "cao",
+        "fromPlaceId": "chi-bi",
+        "toPlaceId": "wu-lin",
+        "kind": "retreat",
+        "label": "曹操自赤壁火场退往乌林",
+        "evidence": [
+          "cit-03",
+          "cit-22"
+        ]
+      },
+      {
+        "id": "r-handang-camp",
+        "factionId": "sunliu",
+        "fromPlaceId": "chi-bi",
+        "toPlaceId": "cao-water-camp",
+        "kind": "advance",
+        "label": "韩当冒烟突火进攻曹军水寨",
+        "evidence": [
+          "cit-23"
+        ]
+      },
+      {
+        "id": "r-wulin-yiling",
+        "factionId": "cao",
+        "fromPlaceId": "wu-lin",
+        "toPlaceId": "yi-ling",
+        "kind": "retreat",
+        "label": "曹操由乌林望彝陵而走",
+        "evidence": [
+          "cit-05"
+        ]
+      },
+      {
+        "id": "r-yiling-huarong",
+        "factionId": "cao",
+        "fromPlaceId": "yi-ling",
+        "toPlaceId": "hua-rong-dao",
+        "kind": "retreat",
+        "label": "曹操走南彝陵、葫芦口，转走华容道",
+        "evidence": [
+          "cit-06",
+          "cit-07"
+        ]
+      },
+      {
+        "id": "r-huarong-nanjun",
+        "factionId": "cao",
+        "fromPlaceId": "hua-rong-dao",
+        "toPlaceId": "nan-jun",
+        "kind": "retreat",
+        "label": "曹操脱华容道，入南郡",
+        "evidence": [
+          "cit-09",
+          "cit-10"
+        ]
+      },
+      {
+        "id": "r-nanjun-xuchang",
+        "factionId": "cao",
+        "fromPlaceId": "nan-jun",
+        "toPlaceId": "xu-chang",
+        "kind": "retreat",
+        "label": "曹操自南郡奔回许昌",
+        "evidence": [
+          "cit-12"
+        ]
+      },
+      {
+        "id": "r-huarong-xiakou",
+        "factionId": "sunliu",
+        "fromPlaceId": "hua-rong-dao",
+        "toPlaceId": "xia-kou",
+        "kind": "other",
+        "label": "关羽释曹操后空身回夏口",
+        "evidence": [
+          "cit-15",
+          "cit-18"
+        ]
+      }
+    ],
+    "controlAreas": [
+      {
+        "id": "area-cao-jingzhou",
+        "factionId": "cao",
+        "name": "曹操军荆州北部控制区（示意）",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                111.29,
+                30.69
+              ],
+              [
+                112.19,
+                30.35
+              ],
+              [
+                113.62,
+                29.87
+              ],
+              [
+                112.01,
+                32.01
+              ],
+              [
+                111.29,
+                30.69
+              ]
+            ]
+          ]
+        },
+        "schematic": true,
+        "evidence": [
+          "cit-13",
+          "cit-05"
+        ]
+      },
+      {
+        "id": "area-sunliu-chibi",
+        "factionId": "sunliu",
+        "name": "孙刘联军赤壁—夏口控制区（示意）",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                113.93,
+                29.73
+              ],
+              [
+                115.89,
+                29.62
+              ],
+              [
+                114.84,
+                30.4
+              ],
+              [
+                114.3,
+                30.6
+              ],
+              [
+                113.93,
+                29.73
+              ]
+            ]
+          ]
+        },
+        "schematic": true,
+        "evidence": [
+          "cit-01",
+          "cit-21"
+        ]
+      }
+    ],
+    "frontLines": [
+      {
+        "id": "front-chibi-wulin",
+        "factionIds": [
+          "cao",
+          "sunliu"
+        ],
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              113.55,
+              29.92
+            ],
+            [
+              113.7,
+              29.88
+            ],
+            [
+              113.85,
+              29.82
+            ],
+            [
+              113.95,
+              29.76
+            ]
+          ]
+        },
+        "schematic": true,
+        "evidence": [
+          "cit-01",
+          "cit-02"
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "s-overview",
+        "index": 0,
+        "title": "全篇概览",
+        "timeLabel": "建安十三年（208年）",
+        "summary": "建安十三年冬，孙刘联军在赤壁以火攻大破曹操水军。曹操自乌林一路北撤，经彝陵、葫芦口转走华容道，最终入南郡、奔许昌；关羽奉命埋伏华容道，因旧恩放走曹操。",
+        "placeIds": [
+          "chi-bi",
+          "san-jiang-kou",
+          "wu-lin",
+          "cao-water-camp",
+          "yi-ling",
+          "hu-lu-gu",
+          "hua-rong-dao",
+          "nan-jun",
+          "jiang-ling",
+          "jing-zhou",
+          "xiang-yang",
+          "xu-chang",
+          "he-fei",
+          "yi-du",
+          "xia-kou"
+        ],
+        "routeIds": [
+          "r-chibi-wulin",
+          "r-handang-camp",
+          "r-wulin-yiling",
+          "r-yiling-huarong",
+          "r-huarong-nanjun",
+          "r-nanjun-xuchang",
+          "r-huarong-xiakou"
+        ],
+        "areaIds": [
+          "area-cao-jingzhou",
+          "area-sunliu-chibi"
+        ],
+        "frontLineIds": [
+          "front-chibi-wulin"
+        ]
+      },
+      {
+        "id": "scene-fire",
+        "index": 1,
+        "title": "赤壁火攻与江面追击",
+        "timeLabel": "建安十三年冬",
+        "summary": "黄盖火船撞入曹军水寨，韩当、周泰等从赤壁东西两翼杀出，曹操弃寨北走。",
+        "placeIds": [
+          "chi-bi",
+          "san-jiang-kou",
+          "cao-water-camp",
+          "wu-lin",
+          "xia-kou"
+        ],
+        "routeIds": [
+          "r-handang-camp",
+          "r-chibi-wulin"
+        ],
+        "areaIds": [
+          "area-sunliu-chibi"
+        ],
+        "frontLineIds": [
+          "front-chibi-wulin"
+        ],
+        "camera": {
+          "center": [
+            114,
+            30
+          ],
+          "zoom": 6
+        }
+      },
+      {
+        "id": "scene-wulin",
+        "index": 2,
+        "title": "乌林突围与葫芦口伏兵",
+        "timeLabel": "建安十三年冬 · 四更后",
+        "summary": "曹操由乌林西走，赵云、张飞先后在乌林之西与葫芦口设伏；曹操折兵后望彝陵、转华容道。",
+        "placeIds": [
+          "wu-lin",
+          "yi-du",
+          "yi-ling",
+          "hu-lu-gu",
+          "jing-zhou"
+        ],
+        "routeIds": [
+          "r-wulin-yiling",
+          "r-yiling-huarong"
+        ],
+        "areaIds": [
+          "area-cao-jingzhou"
+        ],
+        "camera": {
+          "center": [
+            112.6,
+            30.4
+          ],
+          "zoom": 6
+        }
+      },
+      {
+        "id": "scene-huarong",
+        "index": 3,
+        "title": "华容道与关羽释曹操",
+        "timeLabel": "建安十三年冬 · 五更后",
+        "summary": "曹操入华容道，关羽截住去路，因旧恩放行；曹操入南郡，随后奔回许昌，关羽空身回夏口。",
+        "placeIds": [
+          "hua-rong-dao",
+          "nan-jun",
+          "jiang-ling",
+          "xu-chang",
+          "xia-kou"
+        ],
+        "routeIds": [
+          "r-huarong-nanjun",
+          "r-nanjun-xuchang",
+          "r-huarong-xiakou"
+        ],
+        "areaIds": [],
+        "frontLineIds": [],
+        "camera": {
+          "center": [
+            112.9,
+            30.2
+          ],
+          "zoom": 5.5
+        }
+      }
+    ],
+    "citations": [
+      {
+        "id": "cit-01",
+        "quote": "左邊是韓當、蔣欽兩軍從赤壁西邊殺來；右邊是周泰、陳武兩軍從赤壁東邊殺來；正中是周瑜、程普、徐盛、丁奉大隊船隻都到。",
+        "start": 206,
+        "end": 263
+      },
+      {
+        "id": "cit-02",
+        "quote": "此正是：三江水戰，赤壁鏖兵。",
+        "start": 273,
+        "end": 287
+      },
+      {
+        "id": "cit-03",
+        "quote": "操逕奔烏林。",
+        "start": 540,
+        "end": 546
+      },
+      {
+        "id": "cit-04",
+        "quote": "此是烏林之西，宜都之北。",
+        "start": 994,
+        "end": 1006
+      },
+      {
+        "id": "cit-05",
+        "quote": "操只得望彝陵而走。",
+        "start": 934,
+        "end": 943
+      },
+      {
+        "id": "cit-06",
+        "quote": "取南彝陵過葫蘆口去最便。",
+        "start": 1361,
+        "end": 1373
+      },
+      {
+        "id": "cit-07",
+        "quote": "遂勒兵走華容道。",
+        "start": 2018,
+        "end": 2026
+      },
+      {
+        "id": "cit-08",
+        "quote": "小路投華容道，卻近五十餘里。",
+        "start": 1834,
+        "end": 1848
+      },
+      {
+        "id": "cit-09",
+        "quote": "曹操既脫華容之難，行至谷口",
+        "start": 3094,
+        "end": 3107
+      },
+      {
+        "id": "cit-10",
+        "quote": "比及天晚，已近南郡",
+        "start": 3122,
+        "end": 3131
+      },
+      {
+        "id": "cit-11",
+        "quote": "於是引眾入南郡安歇。",
+        "start": 3221,
+        "end": 3231
+      },
+      {
+        "id": "cit-12",
+        "quote": "操分撥已定，遂上馬引眾奔回許昌。",
+        "start": 3553,
+        "end": 3569
+      },
+      {
+        "id": "cit-13",
+        "quote": "荊州託汝管領；襄陽吾已撥夏侯惇守把。",
+        "start": 3491,
+        "end": 3509
+      },
+      {
+        "id": "cit-14",
+        "quote": "合淝最為緊要之地，吾命張遼為主將",
+        "start": 3509,
+        "end": 3525
+      },
+      {
+        "id": "cit-15",
+        "quote": "此時諸路軍馬，皆得馬匹、器械、錢糧，已回夏口；獨雲長不獲一人一騎，空身回見玄德。",
+        "start": 3623,
+        "end": 3663
+      },
+      {
+        "id": "cit-16",
+        "quote": "操問：「那裏投南郡江陵去近？」",
+        "start": 1340,
+        "end": 1355
+      },
+      {
+        "id": "cit-17",
+        "quote": "於是把馬頭勒回，謂眾軍曰：「四散擺開。」這個分明是放曹操的意思。",
+        "start": 2926,
+        "end": 2958
+      },
+      {
+        "id": "cit-18",
+        "quote": "操見雲長回馬，便和眾將一齊衝將過去。",
+        "start": 2958,
+        "end": 2976
+      },
+      {
+        "id": "cit-19",
+        "quote": "早見四下火煙布合山口，一軍擺開。為首乃燕人張翼德",
+        "start": 1644,
+        "end": 1668
+      },
+      {
+        "id": "cit-20",
+        "quote": "我趙子龍奉軍師將令，在此等候多時了！",
+        "start": 1134,
+        "end": 1152
+      },
+      {
+        "id": "cit-21",
+        "quote": "就草上放起火來。",
+        "start": 423,
+        "end": 431
+      },
+      {
+        "id": "cit-22",
+        "quote": "曹操與張遼引百餘騎，在火林內走，看前面無一處不著。",
+        "start": 472,
+        "end": 497
+      },
+      {
+        "id": "cit-23",
+        "quote": "韓當冒煙突火來攻水寨",
+        "start": 33,
+        "end": 43
+      }
+    ]
+  }
+}

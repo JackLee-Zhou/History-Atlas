@@ -1,0 +1,23 @@
+[
+  { "label": "夏", "startYear": -2070, "endYear": -1600, "aliases": ["夏朝"] },
+  { "label": "商", "startYear": -1600, "endYear": -1046, "aliases": ["商朝", "殷"] },
+  { "label": "西周", "startYear": -1046, "endYear": -771, "aliases": ["周", "周朝"] },
+  { "label": "春秋", "startYear": -770, "endYear": -476, "aliases": ["春秋时期"] },
+  { "label": "战国", "startYear": -475, "endYear": -221, "aliases": ["战国时期"] },
+  { "label": "秦", "startYear": -221, "endYear": -207, "aliases": ["秦朝"] },
+  { "label": "西汉", "startYear": -206, "endYear": 25, "aliases": ["汉", "汉朝", "前汉"] },
+  { "label": "东汉", "startYear": 25, "endYear": 220, "aliases": ["后汉", "东汉末年", "汉末"] },
+  { "label": "三国", "startYear": 220, "endYear": 280, "aliases": ["魏", "蜀", "吴", "曹魏", "蜀汉", "东吴"] },
+  { "label": "西晋", "startYear": 265, "endYear": 316, "aliases": ["晋", "晋朝"] },
+  { "label": "东晋", "startYear": 317, "endYear": 420, "aliases": ["晋", "晋朝"] },
+  { "label": "南北朝", "startYear": 420, "endYear": 589, "aliases": ["南朝", "北朝"] },
+  { "label": "隋", "startYear": 581, "endYear": 618, "aliases": ["隋朝"] },
+  { "label": "唐", "startYear": 618, "endYear": 907, "aliases": ["唐朝", "大唐"] },
+  { "label": "五代十国", "startYear": 907, "endYear": 979, "aliases": ["五代"] },
+  { "label": "北宋", "startYear": 960, "endYear": 1127, "aliases": ["宋", "宋朝"] },
+  { "label": "南宋", "startYear": 1127, "endYear": 1279, "aliases": ["宋", "宋朝"] },
+  { "label": "元", "startYear": 1271, "endYear": 1368, "aliases": ["元朝", "大元"] },
+  { "label": "明", "startYear": 1368, "endYear": 1644, "aliases": ["明朝", "大明"] },
+  { "label": "清", "startYear": 1644, "endYear": 1912, "aliases": ["清朝", "大清"] },
+  { "label": "民国", "startYear": 1912, "endYear": 1949, "aliases": ["中华民国"] }
+]

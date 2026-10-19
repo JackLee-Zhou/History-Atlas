@@ -1,0 +1,569 @@
+/* ─────────────────────────────────────────────────────────────
+   史地舆图 · 阅读器 / 设置 / 引卷过渡
+   Shared reading-room and app-chrome styles on top of the tokens.
+   ───────────────────────────────────────────────────────────── */
+
+.library-room {
+  position: relative;
+  min-height: 100dvh;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 8% 4%, color-mix(in srgb, var(--cinnabar) 5%, transparent), transparent 34%),
+    radial-gradient(ellipse at 92% 8%, color-mix(in srgb, var(--indigo) 6%, transparent), transparent 34%),
+    linear-gradient(180deg, color-mix(in srgb, var(--paper) 92%, transparent), transparent 34%);
+}
+
+.library-room::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.32;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.055'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}
+
+.library-shell {
+  position: relative;
+  z-index: 1;
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding-bottom: 68px;
+}
+
+/* ── App chrome ───────────────────────────────────────────── */
+
+.app-header {
+  position: relative;
+  z-index: 30;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 66%, transparent);
+}
+
+.app-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background: color-mix(in srgb, var(--line) 22%, transparent);
+  pointer-events: none;
+}
+
+.workspace-ribbon {
+  background: color-mix(in srgb, var(--paper) 74%, var(--surface));
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 62%, transparent);
+}
+
+.workspace-ribbon .input {
+  min-height: 2rem;
+  padding-left: 0;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 65%, transparent);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+}
+
+.workspace-ribbon .input:focus {
+  border-color: color-mix(in srgb, var(--cinnabar) 55%, transparent);
+  background: transparent;
+  box-shadow: none;
+}
+
+.workspace-ribbon .btn {
+  background: color-mix(in srgb, var(--surface) 40%, transparent);
+}
+
+.workspace-ribbon .btn:hover {
+  background: var(--surface);
+}
+
+.workspace-ribbon .btn-primary {
+  background: var(--cinnabar);
+}
+
+/* ── Reader sheet ─────────────────────────────────────────── */
+
+.reader-scroll {
+  background:
+    radial-gradient(ellipse at 50% -10%, color-mix(in srgb, var(--surface) 55%, transparent), transparent 54%),
+    var(--paper);
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0.72;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reader-sheet {
+  position: relative;
+  max-width: 780px;
+  margin: 16px auto 34px;
+  padding: clamp(30px, 5.4vw, 58px) clamp(24px, 5.8vw, 66px) 30px;
+  border: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--line) 8%, transparent), transparent 7%, transparent 93%, color-mix(in srgb, var(--line) 7%, transparent)),
+    linear-gradient(180deg, color-mix(in srgb, var(--surface) 75%, var(--paper)), color-mix(in srgb, var(--surface) 55%, var(--paper)));
+  box-shadow:
+    4px 4px 0 -1px color-mix(in srgb, var(--surface) 72%, var(--paper)),
+    4px 4px 0 0 color-mix(in srgb, var(--line) 30%, transparent),
+    8px 8px 0 -2px color-mix(in srgb, var(--surface) 72%, var(--paper)),
+    8px 8px 0 -1px color-mix(in srgb, var(--line) 22%, transparent),
+    0 26px 48px color-mix(in srgb, var(--panel-shadow) 75%, transparent);
+  animation: page-enter 420ms cubic-bezier(.2,.7,.2,1) both;
+}
+
+.reader-sheet::before {
+  content: "";
+  position: absolute;
+  inset: 13px;
+  border: 1px solid color-mix(in srgb, var(--line) 22%, transparent);
+  pointer-events: none;
+}
+
+.reader-sheet__ribbon {
+  position: absolute;
+  top: -1px;
+  right: 34px;
+  width: 17px;
+  height: 49px;
+  background: var(--cinnabar);
+  opacity: 0.92;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 84%, 0 100%);
+  box-shadow: 1px 2px 5px rgba(68, 23, 20, .22);
+}
+
+.reader-masthead {
+  position: relative;
+  text-align: center;
+}
+
+.reader-runhead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--ink-faint);
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  white-space: nowrap;
+}
+
+.reader-runhead::before,
+.reader-runhead::after {
+  content: "";
+  width: 34px;
+  height: 1px;
+  background: color-mix(in srgb, var(--line) 75%, transparent);
+}
+
+.reader-chapter-title {
+  margin: 17px auto 0;
+  text-wrap: balance;
+  max-width: 100%;
+  font-family: var(--font-serif);
+  font-size: clamp(1.35rem, 2.5vw, 1.9rem);
+  font-weight: 550;
+  line-height: 1.48;
+  letter-spacing: 0.015em;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.reader-chapter-sub {
+  margin-top: 10px;
+  color: var(--ink-faint);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.reader-rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: min(210px, 56%);
+  margin: 18px auto 0;
+  color: var(--cinnabar);
+}
+
+.reader-rule::before,
+.reader-rule::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--cinnabar) 55%, transparent));
+}
+
+.reader-rule::after {
+  background: linear-gradient(90deg, color-mix(in srgb, var(--cinnabar) 55%, transparent), transparent);
+}
+
+.reader-rule span {
+  width: 7px;
+  height: 7px;
+  border: 1px solid currentColor;
+  transform: rotate(45deg);
+}
+
+.reader-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 16px;
+  color: var(--ink-faint);
+  font-size: 10px;
+}
+
+.reader-controls .btn {
+  min-height: 1.72rem;
+  padding: 0.1rem 0.45rem;
+  border-color: color-mix(in srgb, var(--line) 58%, transparent);
+  background: color-mix(in srgb, var(--surface) 42%, transparent);
+  font-size: 10px;
+}
+
+.reader-controls .btn-primary {
+  border-color: color-mix(in srgb, var(--cinnabar) 55%, transparent);
+  background: color-mix(in srgb, var(--cinnabar) 88%, #000 4%);
+}
+
+.reader-text {
+  margin-top: 29px;
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  line-break: strict;
+  text-wrap: pretty;
+}
+
+.reader-text p {
+  margin: 0 0 0.78em;
+  text-indent: 2em;
+}
+
+.reader-text p:first-of-type {
+  text-indent: 0;
+}
+
+.reader-text--dropcap > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.08em 0.1em 0 0;
+  color: var(--cinnabar);
+  font-family: var(--font-serif);
+  font-size: 3.25em;
+  font-weight: 600;
+  line-height: 0.82;
+}
+
+.reader-page-marker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 25px 0;
+  padding: 0;
+  border: 0;
+  color: var(--ink-faint);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+}
+
+.reader-page-marker::before,
+.reader-page-marker::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: color-mix(in srgb, var(--line) 42%, transparent);
+}
+
+.reader-page-marker .btn {
+  min-height: 1.55rem;
+  padding: 0 0.28rem;
+  color: var(--ink-faint);
+  font-size: 10px;
+  opacity: .55;
+}
+
+.reader-page-marker .btn:hover {
+  color: var(--cinnabar);
+  opacity: 1;
+}
+
+.reader-colophon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 34px;
+  padding-top: 11px;
+  border-top: 1px solid color-mix(in srgb, var(--line) 42%, transparent);
+  color: var(--ink-faint);
+  font-family: var(--font-kai);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.reader-colophon__mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.reader-colophon__mark::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--cinnabar);
+  transform: rotate(45deg);
+}
+
+.reader-chapter-nav {
+  display: flex;
+  align-items: stretch;
+  gap: 1px;
+  margin-top: 22px;
+  border: 1px solid color-mix(in srgb, var(--line) 46%, transparent);
+  background: color-mix(in srgb, var(--line) 26%, transparent);
+}
+
+.reader-chapter-nav button {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 0;
+  background: color-mix(in srgb, var(--surface) 38%, var(--paper));
+  color: var(--ink);
+  text-align: left;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.reader-chapter-nav button:last-child {
+  text-align: right;
+}
+
+.reader-chapter-nav button:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--cinnabar) 6%, var(--surface));
+  color: var(--cinnabar);
+}
+
+.reader-chapter-nav button:disabled {
+  color: var(--ink-faint);
+  opacity: .5;
+}
+
+.reader-chapter-nav__eyebrow {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--ink-faint);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+}
+
+.reader-chapter-nav__title {
+  display: block;
+  overflow: hidden;
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-selection {
+  border-top: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  box-shadow: 0 -12px 30px color-mix(in srgb, var(--panel-shadow) 70%, transparent);
+}
+
+.reader-selection__inner {
+  border-top: 1px solid color-mix(in srgb, var(--cinnabar) 35%, transparent);
+}
+
+/* ── Atlas plate ──────────────────────────────────────────── */
+
+.atlas-plate {
+  position: relative;
+  border-color: color-mix(in srgb, var(--line) 72%, transparent);
+  box-shadow: 0 16px 38px color-mix(in srgb, var(--panel-shadow) 80%, transparent);
+}
+
+.atlas-plate::after {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  z-index: 5;
+  border: 1px solid color-mix(in srgb, var(--line) 22%, transparent);
+  pointer-events: none;
+}
+
+.atlas-plate > header {
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--surface) 74%, transparent), transparent),
+    color-mix(in srgb, var(--paper) 65%, var(--surface));
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+
+@media (max-width: 760px) {
+  .library-shell {
+    width: min(100% - 28px, 1180px);
+    padding-bottom: 42px;
+  }
+
+  .reader-sheet {
+    margin: 9px 9px 24px;
+    padding: 29px 22px 24px;
+    box-shadow:
+      3px 3px 0 -1px color-mix(in srgb, var(--surface) 72%, var(--paper)),
+      3px 3px 0 0 color-mix(in srgb, var(--line) 28%, transparent),
+      0 18px 34px color-mix(in srgb, var(--panel-shadow) 70%, transparent);
+  }
+
+  .reader-sheet::before {
+    inset: 8px;
+  }
+
+  .reader-sheet__ribbon {
+    right: 24px;
+    width: 14px;
+    height: 40px;
+  }
+
+  .reader-chapter-title {
+    font-size: 1.25rem;
+  }
+
+  .reader-text {
+    margin-top: 22px;
+  }
+
+  .reader-text--dropcap > p:first-of-type::first-letter {
+    font-size: 2.85em;
+  }
+
+  .reader-chapter-nav {
+    margin-top: 17px;
+  }
+
+  .reader-colophon {
+    margin-top: 24px;
+  }
+}
+
+/* Scroll/page transition from a clicked volume to the reading sheet. */
+.book-opening {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: all;
+}
+
+.book-opening__sheet {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--line) 50%, transparent);
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.2), transparent 7%, transparent 93%, rgba(0, 0, 0, 0.14)),
+    var(--open-cover, var(--paper));
+  transform-origin: center;
+  animation:
+    book-unfold 620ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards,
+    book-paper-reveal 620ms ease-out forwards;
+  box-shadow: 0 24px 80px rgba(36, 24, 14, 0.18);
+}
+
+.book-opening__sheet::before {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 1px solid color-mix(in srgb, var(--line) 35%, transparent);
+}
+
+.book-opening__seal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid color-mix(in srgb, var(--cinnabar) 62%, transparent);
+  color: var(--cinnabar);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  animation: seal-fade 420ms 120ms forwards;
+}
+
+.book-opening__rod {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  height: 8px;
+  z-index: 2;
+  border-radius: 2px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16), transparent),
+    linear-gradient(90deg, #2a1b11, #6a4d36 20%, #3b281a 80%, #21150d);
+  opacity: 0;
+  animation: rod-in 180ms 40ms forwards;
+}
+
+.book-opening__rod--top {
+  top: 5%;
+}
+
+.book-opening__rod--bottom {
+  bottom: 5%;
+}
+
+@keyframes book-unfold {
+  0% {
+    transform: translate(var(--open-x), var(--open-y)) scale(var(--open-sx), var(--open-sy));
+    opacity: 0.96;
+  }
+  58% {
+    transform: translate(0, 0) scale(1.012, 1.012);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0) scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@keyframes seal-fade {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes rod-in {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes book-paper-reveal {
+  0%, 42% {
+    background-color: var(--open-cover, var(--paper));
+  }
+  100% {
+    background-color: var(--paper);
+  }
+}

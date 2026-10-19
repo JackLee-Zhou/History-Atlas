@@ -1,0 +1,4740 @@
+[
+  {
+    "id": "chang-an",
+    "name": "长安",
+    "aliases": [
+      "長安",
+      "京兆",
+      "西京"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西周",
+        "startYear": -1046,
+        "endYear": -771
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "西安市",
+    "admin1": "陕西省",
+    "admin2": "西安市",
+    "lat": 34.2611,
+    "lng": 108.9422,
+    "precision": "city",
+    "confidence": 0.9,
+    "source": {
+      "label": "维基百科「西安市」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%AE%89%E5%B8%82"
+    },
+    "note": "汉唐都城。汉长安城遗址在今西安市西北，唐长安城在今市区；坐标取今市中心，精度按市级。"
+  },
+  {
+    "id": "luo-yang",
+    "name": "洛阳",
+    "aliases": [
+      "洛陽",
+      "雒阳",
+      "东都",
+      "東京"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东周",
+        "startYear": -770,
+        "endYear": -256
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "北魏",
+        "startYear": 386,
+        "endYear": 534
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "洛阳市",
+    "admin1": "河南省",
+    "admin2": "洛阳市",
+    "lat": 34.6197,
+    "lng": 112.4539,
+    "precision": "city",
+    "confidence": 0.9,
+    "source": {
+      "label": "维基百科「洛阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E9%98%B3%E5%B8%82"
+    },
+    "note": "东汉、北魏、隋唐皆以此为都或东都。汉魏洛阳故城在今洛阳市东，坐标取今市中心。"
+  },
+  {
+    "id": "xu-chang",
+    "name": "许昌",
+    "aliases": [
+      "許昌",
+      "许都",
+      "許都",
+      "许县",
+      "許縣"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国魏",
+        "startYear": 220,
+        "endYear": 265
+      }
+    ],
+    "modernName": "许昌市",
+    "admin1": "河南省",
+    "admin2": "许昌市",
+    "lat": 34.037,
+    "lng": 113.852,
+    "precision": "city",
+    "confidence": 0.9,
+    "source": {
+      "label": "维基百科「许昌市」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%AE%B8%E6%98%8C%E5%B8%82"
+    },
+    "note": "东汉建安元年曹操迎献帝都许，即此。汉许县故城在今许昌市东，坐标取今市中心。"
+  },
+  {
+    "id": "ye-cheng",
+    "name": "邺城",
+    "aliases": [
+      "鄴城",
+      "邺",
+      "鄴",
+      "临漳"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "曹魏",
+        "startYear": 220,
+        "endYear": 265
+      },
+      {
+        "label": "东魏北齐",
+        "startYear": 534,
+        "endYear": 577
+      }
+    ],
+    "modernName": "临漳县",
+    "admin1": "河北省",
+    "admin2": "邯郸市",
+    "lat": 36.3333,
+    "lng": 114.6167,
+    "precision": "county",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「临漳县」",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%B4%E6%BC%B3%E5%8E%BF"
+    },
+    "note": "曹魏五都之一，铜雀台在此。邺城遗址在临漳县西南，坐标取今县治，精度为县级。"
+  },
+  {
+    "id": "jin-yang",
+    "name": "晋阳",
+    "aliases": [
+      "晉陽",
+      "太原",
+      "并州城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "春秋",
+        "startYear": -770,
+        "endYear": -476
+      },
+      {
+        "label": "东晋十六国",
+        "startYear": 317,
+        "endYear": 420
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "太原市",
+    "admin1": "山西省",
+    "admin2": "太原市",
+    "lat": 37.8704,
+    "lng": 112.5497,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「太原市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E5%B8%82"
+    },
+    "note": "晋阳古城在今太原市晋源区，宋以后太原城北移；坐标取今太原市中心。"
+  },
+  {
+    "id": "ping-cheng",
+    "name": "平城",
+    "aliases": [
+      "平城",
+      "大同",
+      "代都"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "北魏",
+        "startYear": 386,
+        "endYear": 534
+      },
+      {
+        "label": "辽金",
+        "startYear": 907,
+        "endYear": 1234
+      }
+    ],
+    "modernName": "大同市",
+    "admin1": "山西省",
+    "admin2": "大同市",
+    "lat": 40.097,
+    "lng": 113.367,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「大同市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%90%8C%E5%B8%82"
+    },
+    "note": "北魏前期都城平城，今大同市区。平城遗址与今城位置相近，坐标取今市中心。"
+  },
+  {
+    "id": "ju-lu",
+    "name": "巨鹿",
+    "aliases": [
+      "鉅鹿",
+      "巨鹿郡"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      }
+    ],
+    "modernName": "巨鹿县",
+    "admin1": "河北省",
+    "admin2": "邢台市",
+    "lat": 37.221,
+    "lng": 115.037,
+    "precision": "county",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「巨鹿县」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B7%A8%E9%B9%BF%E5%8E%BF"
+    },
+    "note": "秦末巨鹿之战发生地，古巨鹿郡治在今巨鹿县一带。坐标取今县治，精度为县级。"
+  },
+  {
+    "id": "han-dan",
+    "name": "邯郸",
+    "aliases": [
+      "邯鄲",
+      "邯郸郡",
+      "赵都"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "战国赵",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "邯郸市",
+    "admin1": "河北省",
+    "admin2": "邯郸市",
+    "lat": 36.601,
+    "lng": 114.487,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「邯郸市」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%AF%E9%83%B8%E5%B8%82"
+    },
+    "note": "战国赵都。赵邯郸故城在今邯郸市区西南，坐标取今市中心。"
+  },
+  {
+    "id": "lin-zi",
+    "name": "临淄",
+    "aliases": [
+      "臨淄",
+      "齐国",
+      "齐都"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西周",
+        "startYear": -1046,
+        "endYear": -771
+      },
+      {
+        "label": "战国齐",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "临淄区",
+    "admin1": "山东省",
+    "admin2": "淄博市",
+    "lat": 36.858,
+    "lng": 118.308,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「临淄区」",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%B4%E6%B7%84%E5%8C%BA"
+    },
+    "note": "齐国都城临淄，遗址在今淄博市临淄区。坐标取今临淄城区，精度按市级。"
+  },
+  {
+    "id": "xian-yang",
+    "name": "咸阳",
+    "aliases": [
+      "咸陽",
+      "秦都",
+      "渭城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "咸阳市",
+    "admin1": "陕西省",
+    "admin2": "咸阳市",
+    "lat": 34.3299,
+    "lng": 108.7088,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「咸阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%92%B8%E9%98%B3%E5%B8%82"
+    },
+    "note": "秦都咸阳，遗址在今咸阳市渭城区一带，与今咸阳市区相邻。坐标取今市中心。"
+  },
+  {
+    "id": "chen-cang",
+    "name": "陈仓",
+    "aliases": [
+      "陳倉",
+      "宝鸡",
+      "陳倉城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "陈仓区",
+    "admin1": "陕西省",
+    "admin2": "宝鸡市",
+    "lat": 34.3061,
+    "lng": 107.387,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "维基百科「陈仓区」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%88%E4%BB%93%E5%8C%BA"
+    },
+    "note": "古陈仓城约在今宝鸡市区，陈仓区为今行政区名；坐标取陈仓区治，精度为县级。"
+  },
+  {
+    "id": "qi-shan",
+    "name": "祁山",
+    "aliases": [
+      "祁山堡",
+      "祁山道",
+      "祁山城"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      }
+    ],
+    "modernName": "礼县祁山镇",
+    "admin1": "甘肃省",
+    "admin2": "陇南市",
+    "lat": 34.23269,
+    "lng": 105.39016,
+    "precision": "site",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「祁山镇 (礼县)」",
+      "url": "https://zh.wikipedia.org/wiki/%E7%A5%81%E5%B1%B1%E9%95%87%20(%E7%A4%BC%E5%8E%BF)"
+    },
+    "note": "诸葛亮北伐出祁山即此。祁山堡在今礼县祁山镇，坐标取镇驻地，精度为遗址级。"
+  },
+  {
+    "id": "wu-zhang-yuan",
+    "name": "五丈原",
+    "aliases": [
+      "五丈原",
+      "五丈原镇"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      }
+    ],
+    "modernName": "岐山县五丈原",
+    "admin1": "陕西省",
+    "admin2": "宝鸡市",
+    "lat": 34.28,
+    "lng": 107.62,
+    "precision": "site",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地地方志（岐山县五丈原）"
+    },
+    "note": "五丈原在岐山县城南约二十公里、渭河南岸台原。坐标取五丈原镇附近，精度为遗址级。"
+  },
+  {
+    "id": "jie-ting",
+    "name": "街亭",
+    "aliases": [
+      "街亭",
+      "街泉亭",
+      "陇城"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      }
+    ],
+    "modernName": "秦安县陇城镇",
+    "admin1": "甘肃省",
+    "admin2": "天水市",
+    "lat": 34.99874,
+    "lng": 105.9806,
+    "precision": "site",
+    "confidence": 0.65,
+    "source": {
+      "label": "维基百科「陇城镇 (秦安县)」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%87%E5%9F%8E%E9%95%87%20(%E7%A7%A6%E5%AE%89%E5%8E%BF)"
+    },
+    "note": "街亭位置有陇城、街泉等说，多数学者取今秦安县陇城镇。坐标取镇驻地，精度为遗址级，仍有争议。"
+  },
+  {
+    "id": "jian-ge",
+    "name": "剑阁",
+    "aliases": [
+      "劍閣",
+      "剑门关",
+      "劍門關"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "剑阁县",
+    "admin1": "四川省",
+    "admin2": "广元市",
+    "lat": 32.288,
+    "lng": 105.524,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「剑阁县」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%89%91%E9%98%81%E5%8E%BF"
+    },
+    "note": "剑门关在剑阁县北，为入蜀咽喉。坐标取剑阁县治，精度为县级。"
+  },
+  {
+    "id": "cheng-du",
+    "name": "成都",
+    "aliases": [
+      "成都",
+      "益州",
+      "锦官城",
+      "錦官城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      },
+      {
+        "label": "五代十国",
+        "startYear": 907,
+        "endYear": 979
+      }
+    ],
+    "modernName": "成都市",
+    "admin1": "四川省",
+    "admin2": "成都市",
+    "lat": 30.66,
+    "lng": 104.0633,
+    "precision": "city",
+    "confidence": 0.9,
+    "source": {
+      "label": "维基百科「成都市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E9%83%BD%E5%B8%82"
+    },
+    "note": "蜀汉都城。古成都城在今市区，坐标取今市中心。"
+  },
+  {
+    "id": "bai-di-cheng",
+    "name": "白帝城",
+    "aliases": [
+      "白帝城",
+      "永安",
+      "永安市",
+      "夔州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "奉节县",
+    "admin1": "重庆市",
+    "admin2": "奉节县",
+    "lat": 31.04,
+    "lng": 109.57,
+    "precision": "site",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「白帝城」",
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E5%B8%9D%E5%9F%8E"
+    },
+    "note": "白帝城在今奉节县东瞿塘峡口，刘备夷陵败后驻永安即此。坐标取白帝城遗址附近，精度为遗址级。"
+  },
+  {
+    "id": "yi-ling",
+    "name": "夷陵",
+    "aliases": [
+      "夷陵",
+      "宜昌",
+      "西陵"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "战国楚",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "宜昌市",
+    "admin1": "湖北省",
+    "admin2": "宜昌市",
+    "lat": 30.692,
+    "lng": 111.287,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「宜昌市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%9C%E6%98%8C%E5%B8%82"
+    },
+    "note": "夷陵即今宜昌市一带，夷陵之战发生于此。古夷陵城与今宜昌市区位置相近，坐标取市中心。"
+  },
+  {
+    "id": "jing-zhou",
+    "name": "荆州",
+    "aliases": [
+      "荊州",
+      "江陵",
+      "荆州城",
+      "荊州城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      },
+      {
+        "label": "东晋南朝",
+        "startYear": 317,
+        "endYear": 589
+      }
+    ],
+    "modernName": "荆州区",
+    "admin1": "湖北省",
+    "admin2": "荆州市",
+    "lat": 30.3542,
+    "lng": 112.1883,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「荆州区」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8D%86%E5%B7%9E%E5%8C%BA"
+    },
+    "note": "荆州城即今荆州古城，历代江陵县、荆州府治所。坐标取荆州区（古城）位置。"
+  },
+  {
+    "id": "jiang-ling",
+    "name": "江陵",
+    "aliases": [
+      "江陵",
+      "江陵城",
+      "南郡城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "荆州市荆州区",
+    "admin1": "湖北省",
+    "admin2": "荆州市",
+    "lat": 30.3542,
+    "lng": 112.1883,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「荆州区」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8D%86%E5%B7%9E%E5%8C%BA"
+    },
+    "note": "古江陵城与今荆州古城同址；今江陵县为1994年后新设，治郝穴镇，不是古江陵。坐标取荆州古城。"
+  },
+  {
+    "id": "nan-jun",
+    "name": "南郡",
+    "aliases": [
+      "南郡",
+      "南郡城",
+      "江陵郡"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "荆州市",
+    "admin1": "湖北省",
+    "admin2": "荆州市",
+    "lat": 30.3542,
+    "lng": 112.1883,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「荆州区」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8D%86%E5%B7%9E%E5%8C%BA"
+    },
+    "note": "南郡为郡级政区，治江陵（今荆州古城）。坐标取郡治江陵，仅示意郡域中心，非郡界。"
+  },
+  {
+    "id": "xiang-yang",
+    "name": "襄阳",
+    "aliases": [
+      "襄陽",
+      "襄城",
+      "襄阳城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      },
+      {
+        "label": "东晋南朝",
+        "startYear": 317,
+        "endYear": 589
+      }
+    ],
+    "modernName": "襄阳市",
+    "admin1": "湖北省",
+    "admin2": "襄阳市",
+    "lat": 32.01,
+    "lng": 112.122,
+    "precision": "city",
+    "confidence": 0.9,
+    "source": {
+      "label": "维基百科「襄阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%A5%84%E9%98%B3%E5%B8%82"
+    },
+    "note": "襄阳古城在今襄阳市襄城区，汉水南岸。坐标取今市中心，精度按市级。"
+  },
+  {
+    "id": "fan-cheng",
+    "name": "樊城",
+    "aliases": [
+      "樊城",
+      "樊城戍"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "樊城区",
+    "admin1": "湖北省",
+    "admin2": "襄阳市",
+    "lat": 32.045,
+    "lng": 112.139,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "今地地方志（襄阳樊城）"
+    },
+    "note": "樊城在汉水北岸，与襄阳隔水相望，今襄阳市樊城区。坐标取樊城区中心。"
+  },
+  {
+    "id": "wan-cheng",
+    "name": "宛城",
+    "aliases": [
+      "宛城",
+      "宛",
+      "南阳",
+      "南陽"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "南阳市",
+    "admin1": "河南省",
+    "admin2": "南阳市",
+    "lat": 33.018,
+    "lng": 112.5786,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「南阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E9%98%B3%E5%B8%82"
+    },
+    "note": "南阳郡治宛城，即今南阳市区。坐标取今市中心。"
+  },
+  {
+    "id": "xin-ye",
+    "name": "新野",
+    "aliases": [
+      "新野",
+      "新野县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "新野县",
+    "admin1": "河南省",
+    "admin2": "南阳市",
+    "lat": 32.5209,
+    "lng": 112.3601,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「新野县」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%87%8E%E5%8E%BF"
+    },
+    "note": "刘备屯新野即此。坐标取今新野县治，精度为县级。"
+  },
+  {
+    "id": "dang-yang",
+    "name": "当阳",
+    "aliases": [
+      "當陽",
+      "当阳县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "当阳市",
+    "admin1": "湖北省",
+    "admin2": "宜昌市",
+    "lat": 30.821,
+    "lng": 111.789,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「当阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BD%93%E9%98%B3%E5%B8%82"
+    },
+    "note": "当阳为长坂坡所在县。古当阳城与今当阳市区位置有差异，坐标取今市中心。"
+  },
+  {
+    "id": "chang-ban-po",
+    "name": "长坂坡",
+    "aliases": [
+      "長坂坡",
+      "长坂",
+      "長坂",
+      "当阳长坂"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "当阳市",
+    "admin1": "湖北省",
+    "admin2": "宜昌市",
+    "lat": 30.83,
+    "lng": 111.8,
+    "precision": "site",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地地方志（当阳长坂坡）"
+    },
+    "note": "长坂坡在当阳市区，今有长坂坡公园；具体古战场范围有争议。坐标取当阳城区附近，精度为遗址级。"
+  },
+  {
+    "id": "xia-kou",
+    "name": "夏口",
+    "aliases": [
+      "夏口",
+      "汉口",
+      "漢口",
+      "夏口城"
+    ],
+    "category": "ferry",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "武汉市",
+    "admin1": "湖北省",
+    "admin2": "武汉市",
+    "lat": 30.595,
+    "lng": 114.2975,
+    "precision": "city",
+    "confidence": 0.55,
+    "source": {
+      "label": "维基百科「武汉市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E6%B1%89%E5%B8%82"
+    },
+    "note": "古夏口当汉水入长江处，今武汉市区；城址有汉口、武昌（蛇山）等说。坐标取武汉市中心示意，存疑。"
+  },
+  {
+    "id": "fan-kou",
+    "name": "樊口",
+    "aliases": [
+      "樊口",
+      "樊口港",
+      "樊口戍"
+    ],
+    "category": "ferry",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "鄂州市樊口",
+    "admin1": "湖北省",
+    "admin2": "鄂州市",
+    "lat": 30.4,
+    "lng": 114.84,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地地方志（鄂州樊口）"
+    },
+    "note": "樊口在鄂州城区西侧长江南岸，今樊口街道。坐标取樊口附近，精度为县级。"
+  },
+  {
+    "id": "chi-bi",
+    "name": "赤壁",
+    "aliases": [
+      "赤壁",
+      "赤壁山",
+      "蒲圻赤壁",
+      "武赤壁"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "赤壁市赤壁镇",
+    "admin1": "湖北省",
+    "admin2": "咸宁市",
+    "lat": 29.72647,
+    "lng": 113.93091,
+    "precision": "site",
+    "confidence": 0.6,
+    "source": {
+      "label": "维基百科「赤壁镇」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%A4%E5%A3%81%E9%95%87"
+    },
+    "note": "赤壁古战场有蒲圻（今赤壁市）、黄州等说，本库取蒲圻赤壁说。坐标取赤壁镇，具体遗址范围存疑。"
+  },
+  {
+    "id": "wu-lin",
+    "name": "乌林",
+    "aliases": [
+      "烏林",
+      "乌林矶",
+      "烏林磯",
+      "乌林镇"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "洪湖市乌林镇",
+    "admin1": "湖北省",
+    "admin2": "荆州市",
+    "lat": 29.8697,
+    "lng": 113.6203,
+    "precision": "county",
+    "confidence": 0.5,
+    "source": {
+      "label": "维基百科「赤壁之戰」/「烏林鎮」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B5%A4%E5%A3%81%E4%B9%8B%E6%88%B0"
+    },
+    "note": "乌林在长江北岸，与赤壁隔江相望，为曹操屯粮处。坐标取赤壁对岸江段示意（维基百科赤壁之战坐标），具体遗址存疑。"
+  },
+  {
+    "id": "hua-rong-dao",
+    "name": "华容道",
+    "aliases": [
+      "華容道",
+      "华容小道",
+      "華容小路",
+      "华容"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "监利市",
+    "admin1": "湖北省",
+    "admin2": "荆州市",
+    "lat": 29.8402,
+    "lng": 112.9048,
+    "precision": "county",
+    "confidence": 0.5,
+    "source": {
+      "label": "维基百科「華容道」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8F%AF%E5%AE%B9%E9%81%93"
+    },
+    "note": "华容道在今湖北监利市境内（一说湖南华容县），古为沼泽，具体路线存疑。坐标取监利市治示意，精度为县级。"
+  },
+  {
+    "id": "san-jiang-kou",
+    "name": "三江口",
+    "aliases": [
+      "三江口",
+      "三江",
+      "三江口戍"
+    ],
+    "category": "ferry",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "鄂州市",
+    "admin1": "湖北省",
+    "admin2": "鄂州市",
+    "lat": 30.38,
+    "lng": 114.86,
+    "precision": "county",
+    "confidence": 0.35,
+    "source": {
+      "label": "今地地方志（鄂州三江口说）"
+    },
+    "note": "《三国演义》三江口为周瑜水军基地。今地有鄂州说与赤壁附近说，本库取鄂州说；坐标取鄂州城区附近示意，存疑。"
+  },
+  {
+    "id": "nan-ping-shan",
+    "name": "南屏山",
+    "aliases": [
+      "南屏山",
+      "南屏山七星坛",
+      "七星坛"
+    ],
+    "category": "other",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "赤壁市",
+    "admin1": "湖北省",
+    "admin2": "咸宁市",
+    "lat": 29.72,
+    "lng": 113.88,
+    "precision": "city",
+    "confidence": 0.3,
+    "source": {
+      "label": "今地资料（赤壁南屏山说，存疑）"
+    },
+    "note": "小说中诸葛亮筑七星坛借东风处。今赤壁市有南屏山之说，具体位置待考；坐标取赤壁市区示意，精度为市级。"
+  },
+  {
+    "id": "wu-chang",
+    "name": "武昌",
+    "aliases": [
+      "武昌",
+      "鄂县",
+      "鄂縣",
+      "吴王城",
+      "吳王城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "三国孙吴",
+        "startYear": 220,
+        "endYear": 280
+      },
+      {
+        "label": "东晋南朝",
+        "startYear": 317,
+        "endYear": 589
+      }
+    ],
+    "modernName": "鄂州市",
+    "admin1": "湖北省",
+    "admin2": "鄂州市",
+    "lat": 30.3914,
+    "lng": 114.8949,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「鄂州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%82%E5%B7%9E%E5%B8%82"
+    },
+    "note": "三国孙吴武昌即今鄂州市（古鄂县），非今武汉市武昌区。坐标取鄂州市区。"
+  },
+  {
+    "id": "chai-sang",
+    "name": "柴桑",
+    "aliases": [
+      "柴桑",
+      "柴桑城",
+      "浔阳",
+      "潯陽"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "九江市柴桑区",
+    "admin1": "江西省",
+    "admin2": "九江市",
+    "lat": 29.62,
+    "lng": 115.89,
+    "precision": "county",
+    "confidence": 0.6,
+    "source": {
+      "label": "维基百科「柴桑区」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%B4%E6%A1%91%E5%8C%BA"
+    },
+    "note": "柴桑为孙吴重镇，故城在今九江市西南一带；今柴桑区为行政区名。坐标取柴桑区治示意，存疑。"
+  },
+  {
+    "id": "jiang-xia",
+    "name": "江夏",
+    "aliases": [
+      "江夏",
+      "江夏郡",
+      "江夏县"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "武汉市江夏区",
+    "admin1": "湖北省",
+    "admin2": "武汉市",
+    "lat": 30.3781,
+    "lng": 114.315,
+    "precision": "county",
+    "confidence": 0.5,
+    "source": {
+      "label": "维基百科「江夏区」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%A4%8F%E5%8C%BA"
+    },
+    "note": "江夏郡为汉代郡名，治所屡迁（西陵、安陆、武昌等）；今江夏区非古郡治。坐标取今江夏区示意，存疑。"
+  },
+  {
+    "id": "han-yang",
+    "name": "汉阳",
+    "aliases": [
+      "漢陽",
+      "汉阳",
+      "汉阳军"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "武汉市汉阳区",
+    "admin1": "湖北省",
+    "admin2": "武汉市",
+    "lat": 30.554,
+    "lng": 114.264,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「汉阳区」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%89%E9%98%B3%E5%8C%BA"
+    },
+    "note": "汉阳在汉水与长江交汇处，三国时属江夏郡。汉阳之名后起，坐标取今汉阳区。"
+  },
+  {
+    "id": "huang-zhou",
+    "name": "黄州",
+    "aliases": [
+      "黃州",
+      "黄冈",
+      "黃岡"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "黄冈市黄州区",
+    "admin1": "湖北省",
+    "admin2": "黄冈市",
+    "lat": 30.4537,
+    "lng": 114.8724,
+    "precision": "city",
+    "confidence": 0.6,
+    "source": {
+      "label": "维基百科「黄州区」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%84%E5%B7%9E%E5%8C%BA"
+    },
+    "note": "黄州之名始于北周，三国时无此名；小说用后世地名。坐标取今黄冈市黄州区，存疑。"
+  },
+  {
+    "id": "he-fei",
+    "name": "合肥",
+    "aliases": [
+      "合肥",
+      "合淝",
+      "合肥县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "合肥市",
+    "admin1": "安徽省",
+    "admin2": "合肥市",
+    "lat": 31.8206,
+    "lng": 117.2273,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「合肥市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%88%E8%82%A5%E5%B8%82"
+    },
+    "note": "合肥为江淮重镇，孙权多次攻合肥。古合肥城在今合肥市区，坐标取今市中心。"
+  },
+  {
+    "id": "shou-chun",
+    "name": "寿春",
+    "aliases": [
+      "壽春",
+      "寿阳",
+      "壽陽",
+      "寿县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "战国楚",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "寿县",
+    "admin1": "安徽省",
+    "admin2": "淮南市",
+    "lat": 32.545,
+    "lng": 116.7982,
+    "precision": "county",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「寿县」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AF%BF%E5%8E%BF"
+    },
+    "note": "寿春为楚都、汉淮南国都、袁术称帝处，即今寿县。坐标取今寿县治，精度为县级。"
+  },
+  {
+    "id": "fei-shui",
+    "name": "淝水",
+    "aliases": [
+      "淝水",
+      "肥水",
+      "淝水之战"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "东晋",
+        "startYear": 317,
+        "endYear": 420
+      }
+    ],
+    "modernName": "寿县",
+    "admin1": "安徽省",
+    "admin2": "淮南市",
+    "lat": 32.55,
+    "lng": 116.8,
+    "precision": "county",
+    "confidence": 0.5,
+    "source": {
+      "label": "今地地方志（寿县淝水）"
+    },
+    "note": "淝水之战古战场在寿春附近淝水入淮一带，具体点位有争议。坐标取寿县附近示意，精度为县级。"
+  },
+  {
+    "id": "jian-kang",
+    "name": "建康",
+    "aliases": [
+      "建康",
+      "建业",
+      "建業",
+      "江宁",
+      "江寧"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东吴",
+        "startYear": 229,
+        "endYear": 280
+      },
+      {
+        "label": "东晋",
+        "startYear": 317,
+        "endYear": 420
+      },
+      {
+        "label": "南朝",
+        "startYear": 420,
+        "endYear": 589
+      }
+    ],
+    "modernName": "南京市",
+    "admin1": "江苏省",
+    "admin2": "南京市",
+    "lat": 32.0608,
+    "lng": 118.7789,
+    "precision": "city",
+    "confidence": 0.9,
+    "source": {
+      "label": "维基百科「南京市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E5%B8%82"
+    },
+    "note": "东吴建业、东晋南朝建康均今南京。六朝都城遗址在今南京市区，坐标取市中心。"
+  },
+  {
+    "id": "jing-kou",
+    "name": "京口",
+    "aliases": [
+      "京口",
+      "京口戍",
+      "镇江",
+      "鎮江"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东晋",
+        "startYear": 317,
+        "endYear": 420
+      },
+      {
+        "label": "南朝",
+        "startYear": 420,
+        "endYear": 589
+      }
+    ],
+    "modernName": "镇江市京口区",
+    "admin1": "江苏省",
+    "admin2": "镇江市",
+    "lat": 32.19,
+    "lng": 119.45,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "今地地方志（镇江京口）"
+    },
+    "note": "京口为长江南岸军事重镇，今镇江市京口区。坐标取京口区中心，精度按市级。"
+  },
+  {
+    "id": "guang-ling",
+    "name": "广陵",
+    "aliases": [
+      "廣陵",
+      "广陵郡",
+      "扬州",
+      "揚州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "东晋南朝",
+        "startYear": 317,
+        "endYear": 589
+      }
+    ],
+    "modernName": "扬州市广陵区",
+    "admin1": "江苏省",
+    "admin2": "扬州市",
+    "lat": 32.3944,
+    "lng": 119.4128,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「广陵区」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B9%BF%E9%99%B5%E5%8C%BA"
+    },
+    "note": "汉广陵国、广陵郡治广陵，今扬州市区。坐标取今扬州市中心。"
+  },
+  {
+    "id": "peng-cheng",
+    "name": "彭城",
+    "aliases": [
+      "彭城",
+      "徐州",
+      "彭城郡"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "徐州市",
+    "admin1": "江苏省",
+    "admin2": "徐州市",
+    "lat": 34.265,
+    "lng": 117.187,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「徐州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%B7%9E%E5%B8%82"
+    },
+    "note": "彭城即今徐州市区，项羽都彭城、陶谦刘备吕布争徐州皆此。坐标取今市中心。"
+  },
+  {
+    "id": "xia-pi",
+    "name": "下邳",
+    "aliases": [
+      "下邳",
+      "下邳城",
+      "邳州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "睢宁县古邳镇",
+    "admin1": "江苏省",
+    "admin2": "徐州市",
+    "lat": 34.29,
+    "lng": 117.94,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地地方志（睢宁古邳镇）"
+    },
+    "note": "古下邳城在今睢宁县古邳镇，非今邳州市区。坐标取古邳镇附近，精度为县级。"
+  },
+  {
+    "id": "xiao-pei",
+    "name": "小沛",
+    "aliases": [
+      "小沛",
+      "沛县",
+      "沛城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "沛县",
+    "admin1": "江苏省",
+    "admin2": "徐州市",
+    "lat": 34.716,
+    "lng": 116.919,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「沛县」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%9B%E5%8E%BF"
+    },
+    "note": "小沛即沛县，刘备曾屯此。坐标取今沛县治，精度为县级。"
+  },
+  {
+    "id": "xu-zhou",
+    "name": "徐州",
+    "aliases": [
+      "徐州",
+      "徐州牧",
+      "彭城国"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "徐州市",
+    "admin1": "江苏省",
+    "admin2": "徐州市",
+    "lat": 34.265,
+    "lng": 117.187,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「徐州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BE%90%E5%B7%9E%E5%B8%82"
+    },
+    "note": "汉代徐州刺史部为监察区，治所屡迁；州名与彭城同城。坐标取今徐州市，仅示意。"
+  },
+  {
+    "id": "yan-zhou",
+    "name": "兖州",
+    "aliases": [
+      "兗州",
+      "兖州牧",
+      "兗州牧"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "济宁市兖州区",
+    "admin1": "山东省",
+    "admin2": "济宁市",
+    "lat": 35.553,
+    "lng": 116.828,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "今地地方志（济宁兖州）"
+    },
+    "note": "汉兖州刺史部治所屡迁（昌邑、鄄城等），今兖州区为后世沿用之名。坐标取今兖州区示意。"
+  },
+  {
+    "id": "qing-zhou",
+    "name": "青州",
+    "aliases": [
+      "青州",
+      "青州刺史部",
+      "北海"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "青州市",
+    "admin1": "山东省",
+    "admin2": "潍坊市",
+    "lat": 36.6853,
+    "lng": 118.4796,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「青州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%9D%92%E5%B7%9E%E5%B8%82"
+    },
+    "note": "汉青州刺史部治临淄，后世青州治今青州市。坐标取今青州市，示意刺史部中心。"
+  },
+  {
+    "id": "ji-zhou",
+    "name": "冀州",
+    "aliases": [
+      "冀州",
+      "冀州刺史部",
+      "冀县"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "衡水市冀州区",
+    "admin1": "河北省",
+    "admin2": "衡水市",
+    "lat": 37.55,
+    "lng": 115.57,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "今地地方志（衡水冀州）"
+    },
+    "note": "汉冀州刺史部为监察区，袁绍自领冀州牧。坐标取今冀州区示意，非汉代冀州全境。"
+  },
+  {
+    "id": "you-zhou",
+    "name": "幽州",
+    "aliases": [
+      "幽州",
+      "幽州刺史部",
+      "燕"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "北京市",
+    "admin1": "北京市",
+    "admin2": "北京市",
+    "lat": 39.9067,
+    "lng": 116.3975,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「北京市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E5%B8%82"
+    },
+    "note": "汉幽州刺史部治蓟（今北京一带）。坐标取今北京市中心示意，非州界。"
+  },
+  {
+    "id": "bing-zhou",
+    "name": "并州",
+    "aliases": [
+      "並州",
+      "并州刺史部",
+      "晋阳"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "太原市",
+    "admin1": "山西省",
+    "admin2": "太原市",
+    "lat": 37.8704,
+    "lng": 112.5497,
+    "precision": "city",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「太原市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E5%B8%82"
+    },
+    "note": "汉并州刺史部治晋阳（今太原）。坐标取今太原市中心，示意州域中心。"
+  },
+  {
+    "id": "liang-zhou",
+    "name": "凉州",
+    "aliases": [
+      "涼州",
+      "凉州刺史部",
+      "武威"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      },
+      {
+        "label": "十六国",
+        "startYear": 304,
+        "endYear": 439
+      }
+    ],
+    "modernName": "武威市",
+    "admin1": "甘肃省",
+    "admin2": "武威市",
+    "lat": 37.929,
+    "lng": 102.638,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「武威市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%A8%81%E5%B8%82"
+    },
+    "note": "汉凉州刺史部治陇县、冀县等，东汉末治武威（姑臧）。坐标取今武威市示意。"
+  },
+  {
+    "id": "yi-zhou",
+    "name": "益州",
+    "aliases": [
+      "益州",
+      "益州刺史部",
+      "成都"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      }
+    ],
+    "modernName": "成都市",
+    "admin1": "四川省",
+    "admin2": "成都市",
+    "lat": 30.66,
+    "lng": 104.0633,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「成都市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E9%83%BD%E5%B8%82"
+    },
+    "note": "汉益州刺史部治雒县、绵竹、成都，刘备据益州。坐标取成都示意州域中心。"
+  },
+  {
+    "id": "jiao-zhou",
+    "name": "交州",
+    "aliases": [
+      "交州",
+      "交州刺史部",
+      "交趾",
+      "交阯"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "越南河内市",
+    "admin1": "越南",
+    "admin2": "河内市",
+    "lat": 21,
+    "lng": 105.85,
+    "precision": "city",
+    "confidence": 0.6,
+    "source": {
+      "label": "维基百科「河内市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%B3%E5%86%85%E5%B8%82"
+    },
+    "note": "汉交州治龙编（今越南河内一带），后移广信、番禺。坐标取今河内示意，州界不在此范围内。"
+  },
+  {
+    "id": "yang-zhou",
+    "name": "扬州",
+    "aliases": [
+      "揚州",
+      "扬州刺史部",
+      "广陵"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "扬州市",
+    "admin1": "江苏省",
+    "admin2": "扬州市",
+    "lat": 32.3944,
+    "lng": 119.4128,
+    "precision": "city",
+    "confidence": 0.4,
+    "source": {
+      "label": "维基百科「扬州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%B8%82"
+    },
+    "note": "汉扬州刺史部为监察区，治所历阳、寿春、建业等，并非今扬州市。坐标取今扬州市仅作示意，存疑。"
+  },
+  {
+    "id": "yu-zhou",
+    "name": "豫州",
+    "aliases": [
+      "豫州",
+      "豫州刺史部",
+      "谯"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "亳州市",
+    "admin1": "安徽省",
+    "admin2": "亳州市",
+    "lat": 33.8463,
+    "lng": 115.7786,
+    "precision": "city",
+    "confidence": 0.6,
+    "source": {
+      "label": "维基百科「亳州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%B3%E5%B7%9E%E5%B8%82"
+    },
+    "note": "汉豫州刺史部治谯（今亳州），曹操为豫州牧。坐标取今亳州市示意。"
+  },
+  {
+    "id": "si-li",
+    "name": "司隶",
+    "aliases": [
+      "司隸",
+      "司隶校尉部",
+      "司州"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      }
+    ],
+    "modernName": "洛阳市",
+    "admin1": "河南省",
+    "admin2": "洛阳市",
+    "lat": 34.6197,
+    "lng": 112.4539,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「洛阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B4%9B%E9%98%B3%E5%B8%82"
+    },
+    "note": "司隶校尉部治洛阳，辖京畿七郡。坐标取洛阳示意，非完整辖区。"
+  },
+  {
+    "id": "guan-du",
+    "name": "官渡",
+    "aliases": [
+      "官渡",
+      "官渡口",
+      "中牟官渡"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "中牟县官渡镇",
+    "admin1": "河南省",
+    "admin2": "郑州市",
+    "lat": 34.73358,
+    "lng": 114.08434,
+    "precision": "site",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「官渡镇 (中牟县)」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%98%E6%B8%A1%E9%95%87%20(%E4%B8%AD%E7%89%9F%E5%8E%BF)"
+    },
+    "note": "官渡之战发生地，今中牟县官渡镇。坐标取镇驻地，精度为遗址级。"
+  },
+  {
+    "id": "wu-chao",
+    "name": "乌巢",
+    "aliases": [
+      "烏巢",
+      "乌巢泽",
+      "烏巢澤"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "封丘县",
+    "admin1": "河南省",
+    "admin2": "新乡市",
+    "lat": 35.0412,
+    "lng": 114.4189,
+    "precision": "county",
+    "confidence": 0.45,
+    "source": {
+      "label": "维基百科「封丘县」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%81%E4%B8%98%E5%8E%BF"
+    },
+    "note": "乌巢为袁绍屯粮处，约在今封丘县西、延津县一带，具体位置存疑。坐标取封丘县治示意，精度为县级。"
+  },
+  {
+    "id": "bai-ma",
+    "name": "白马",
+    "aliases": [
+      "白馬",
+      "白马津",
+      "白馬津",
+      "滑台"
+    ],
+    "category": "ferry",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "滑县",
+    "admin1": "河南省",
+    "admin2": "安阳市",
+    "lat": 35.58,
+    "lng": 114.52,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地地方志（滑县白马津）"
+    },
+    "note": "白马津为黄河渡口，在今滑县东北。坐标取滑县治示意，具体渡口位置因黄河改道已难确指。"
+  },
+  {
+    "id": "yan-jin",
+    "name": "延津",
+    "aliases": [
+      "延津",
+      "延津关",
+      "延津渡"
+    ],
+    "category": "ferry",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "延津县",
+    "admin1": "河南省",
+    "admin2": "新乡市",
+    "lat": 35.1658,
+    "lng": 114.2057,
+    "precision": "county",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「延津县」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BB%B6%E6%B4%A5%E5%8E%BF"
+    },
+    "note": "延津为黄河重要渡口，关羽斩文丑于此附近。坐标取今延津县治，精度为县级。"
+  },
+  {
+    "id": "li-yang",
+    "name": "黎阳",
+    "aliases": [
+      "黎陽",
+      "黎阳津",
+      "黎陽津"
+    ],
+    "category": "ferry",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "浚县",
+    "admin1": "河南省",
+    "admin2": "鹤壁市",
+    "lat": 35.6761,
+    "lng": 114.55,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「浚县」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B5%9A%E5%8E%BF"
+    },
+    "note": "黎阳为黄河渡口、袁绍南下要冲，在今浚县。坐标取今浚县治，精度为县级。"
+  },
+  {
+    "id": "pu-yang",
+    "name": "濮阳",
+    "aliases": [
+      "濮陽",
+      "濮阳郡",
+      "东郡"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "濮阳市",
+    "admin1": "河南省",
+    "admin2": "濮阳市",
+    "lat": 35.7627,
+    "lng": 115.0292,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「濮阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%BF%AE%E9%98%B3%E5%B8%82"
+    },
+    "note": "濮阳为东郡治所、吕布曹操交战地。坐标取今濮阳市中心。"
+  },
+  {
+    "id": "ru-nan",
+    "name": "汝南",
+    "aliases": [
+      "汝南",
+      "汝南郡",
+      "汝阳"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "汝南县",
+    "admin1": "河南省",
+    "admin2": "驻马店市",
+    "lat": 33.0071,
+    "lng": 114.3624,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「汝南县」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%9D%E5%8D%97%E5%8E%BF"
+    },
+    "note": "汝南郡治平舆、汝阳等，袁氏故乡。坐标取今汝南县治，精度为县级。"
+  },
+  {
+    "id": "huai-nan",
+    "name": "淮南",
+    "aliases": [
+      "淮南",
+      "淮南国",
+      "淮南郡"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "淮南市",
+    "admin1": "安徽省",
+    "admin2": "淮南市",
+    "lat": 32.6314,
+    "lng": 117.0194,
+    "precision": "city",
+    "confidence": 0.65,
+    "source": {
+      "label": "维基百科「淮南市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B7%AE%E5%8D%97%E5%B8%82"
+    },
+    "note": "汉淮南国都寿春，淮南郡辖寿春一带。坐标取今淮南市示意，非古郡界。"
+  },
+  {
+    "id": "qiao-xian",
+    "name": "谯县",
+    "aliases": [
+      "譙縣",
+      "谯",
+      "譙",
+      "亳州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "亳州市",
+    "admin1": "安徽省",
+    "admin2": "亳州市",
+    "lat": 33.8463,
+    "lng": 115.7786,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「亳州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%B3%E5%B7%9E%E5%B8%82"
+    },
+    "note": "谯县为曹操故乡、豫州治所，今亳州市区。坐标取今市中心。"
+  },
+  {
+    "id": "chen-liu",
+    "name": "陈留",
+    "aliases": [
+      "陳留",
+      "陈留郡",
+      "陈留镇"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "开封市祥符区陈留镇",
+    "admin1": "河南省",
+    "admin2": "开封市",
+    "lat": 34.65,
+    "lng": 114.65,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地地方志（开封陈留镇）"
+    },
+    "note": "陈留郡治陈留，曹操起兵于此。故城在今开封市祥符区陈留镇一带。坐标取镇驻地，精度为县级。"
+  },
+  {
+    "id": "hu-lao-guan",
+    "name": "虎牢关",
+    "aliases": [
+      "虎牢關",
+      "汜水关",
+      "汜水關",
+      "武牢关"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "荥阳市汜水镇",
+    "admin1": "河南省",
+    "admin2": "郑州市",
+    "lat": 34.84,
+    "lng": 113.2,
+    "precision": "site",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「虎牢关」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%99%8E%E7%89%A2%E5%85%B3"
+    },
+    "note": "虎牢关（汜水关）在今荥阳市汜水镇，洛阳东部门户。坐标取汜水镇附近，精度为遗址级。"
+  },
+  {
+    "id": "han-gu-guan",
+    "name": "函谷关",
+    "aliases": [
+      "函谷關",
+      "秦函谷关",
+      "秦函谷關"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "灵宝市",
+    "admin1": "河南省",
+    "admin2": "三门峡市",
+    "lat": 34.63,
+    "lng": 110.9,
+    "precision": "site",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地地方志（灵宝秦函谷关）"
+    },
+    "note": "秦函谷关故址在灵宝旧城西南；汉函谷关在新安，二者不同。坐标取灵宝境内遗址附近，精度为遗址级。"
+  },
+  {
+    "id": "tong-guan",
+    "name": "潼关",
+    "aliases": [
+      "潼關",
+      "潼关卫",
+      "潼關衛"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "潼关县",
+    "admin1": "陕西省",
+    "admin2": "渭南市",
+    "lat": 34.4864,
+    "lng": 110.2636,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「潼关县」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%BD%BC%E5%85%B3%E5%8E%BF"
+    },
+    "note": "潼关为关中东部门户，关址历代有迁移。坐标取今潼关县治，精度为县级。"
+  },
+  {
+    "id": "wu-guan",
+    "name": "武关",
+    "aliases": [
+      "武關",
+      "武关道",
+      "武關道"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "战国秦",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "丹凤县武关镇",
+    "admin1": "陕西省",
+    "admin2": "商洛市",
+    "lat": 33.62,
+    "lng": 110.25,
+    "precision": "site",
+    "confidence": 0.65,
+    "source": {
+      "label": "今地地方志（丹凤武关）"
+    },
+    "note": "武关为秦楚通道要隘，在今丹凤县武关镇一带。坐标取镇驻地附近，精度为遗址级。"
+  },
+  {
+    "id": "da-san-guan",
+    "name": "大散关",
+    "aliases": [
+      "大散關",
+      "散关",
+      "散關"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      },
+      {
+        "label": "南宋",
+        "startYear": 1127,
+        "endYear": 1279
+      }
+    ],
+    "modernName": "宝鸡市",
+    "admin1": "陕西省",
+    "admin2": "宝鸡市",
+    "lat": 34.26,
+    "lng": 107.06,
+    "precision": "site",
+    "confidence": 0.6,
+    "source": {
+      "label": "今地地方志（宝鸡大散关）"
+    },
+    "note": "大散关在宝鸡西南秦岭北麓，为关中入汉中要道。坐标取宝鸡南郊遗址附近，精度为遗址级。"
+  },
+  {
+    "id": "yang-ping-guan",
+    "name": "阳平关",
+    "aliases": [
+      "陽平關",
+      "阳安关",
+      "陽安關"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "宁强县阳平关镇",
+    "admin1": "陕西省",
+    "admin2": "汉中市",
+    "lat": 32.961353,
+    "lng": 106.055392,
+    "precision": "site",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「阳平关」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%B3%E5%B9%B3%E5%85%B3"
+    },
+    "note": "阳平关为汉中盆地西北门户。汉代古阳平关在勉县白马河入汉水处，今阳平关镇另为一地，存疑。"
+  },
+  {
+    "id": "jia-meng-guan",
+    "name": "葭萌关",
+    "aliases": [
+      "葭萌關",
+      "昭化",
+      "葭萌"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "广元市昭化区",
+    "admin1": "四川省",
+    "admin2": "广元市",
+    "lat": 32.32,
+    "lng": 105.65,
+    "precision": "site",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「葭萌关」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%91%AD%E8%90%8C%E5%85%B3"
+    },
+    "note": "葭萌关在今广元市昭化区昭化古城，为入蜀要隘。坐标取昭化古城附近，精度为遗址级。"
+  },
+  {
+    "id": "fu-cheng",
+    "name": "涪城",
+    "aliases": [
+      "涪城",
+      "涪县",
+      "绵州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      }
+    ],
+    "modernName": "绵阳市",
+    "admin1": "四川省",
+    "admin2": "绵阳市",
+    "lat": 31.468,
+    "lng": 104.679,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「绵阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B5%E9%98%B3%E5%B8%82"
+    },
+    "note": "涪城即今绵阳市区，刘备入蜀据涪城。坐标取今市中心。"
+  },
+  {
+    "id": "mian-zhu",
+    "name": "绵竹",
+    "aliases": [
+      "綿竹",
+      "绵竹关",
+      "綿竹關"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      }
+    ],
+    "modernName": "绵竹市",
+    "admin1": "四川省",
+    "admin2": "德阳市",
+    "lat": 31.3333,
+    "lng": 104.2,
+    "precision": "city",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「绵竹市」",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%B5%E7%AB%B9%E5%B8%82"
+    },
+    "note": "绵竹为成都北面门户，诸葛瞻战死处。坐标取今绵竹市区，古城址有迁移。"
+  },
+  {
+    "id": "jiang-zhou",
+    "name": "江州",
+    "aliases": [
+      "江州",
+      "巴郡",
+      "巴縣"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "重庆市",
+    "admin1": "重庆市",
+    "admin2": "重庆市",
+    "lat": 29.5637,
+    "lng": 106.5504,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「重庆市」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%8D%E5%BA%86%E5%B8%82"
+    },
+    "note": "江州为巴郡治所，今重庆市主城区。坐标取今渝中区一带，精度按市级。"
+  },
+  {
+    "id": "han-zhong",
+    "name": "汉中",
+    "aliases": [
+      "漢中",
+      "汉中郡",
+      "南郑",
+      "南鄭"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "汉中市",
+    "admin1": "陕西省",
+    "admin2": "汉中市",
+    "lat": 33.0664,
+    "lng": 107.0232,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「汉中市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%89%E4%B8%AD%E5%B8%82"
+    },
+    "note": "汉中郡治南郑，即今汉中市。刘邦、刘备皆据此。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "ding-jun-shan",
+    "name": "定军山",
+    "aliases": [
+      "定軍山",
+      "定军山",
+      "黄忠斩夏侯渊处"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      },
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      }
+    ],
+    "modernName": "勉县",
+    "admin1": "陕西省",
+    "admin2": "汉中市",
+    "lat": 32.98,
+    "lng": 106.89,
+    "precision": "site",
+    "confidence": 0.65,
+    "source": {
+      "label": "今地地方志（勉县定军山）"
+    },
+    "note": "定军山在勉县南，黄忠斩夏侯渊于此。坐标取定军山一带，精度为遗址级。"
+  },
+  {
+    "id": "tian-shui",
+    "name": "天水",
+    "aliases": [
+      "天水",
+      "天水郡",
+      "上邽"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "天水市",
+    "admin1": "甘肃省",
+    "admin2": "天水市",
+    "lat": 34.5815,
+    "lng": 105.7248,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「天水市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%B0%B4%E5%B8%82"
+    },
+    "note": "天水郡治平襄、上邽等，诸葛亮北伐用兵之地。坐标取今天水市区示意。"
+  },
+  {
+    "id": "long-xi",
+    "name": "陇西",
+    "aliases": [
+      "隴西",
+      "陇西郡",
+      "狄道"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "陇西县",
+    "admin1": "甘肃省",
+    "admin2": "定西市",
+    "lat": 35.0833,
+    "lng": 104.65,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「陇西县」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%87%E8%A5%BF%E5%8E%BF"
+    },
+    "note": "陇西郡为秦汉西陲大郡，治狄道（今临洮），今陇西县为后世地名。坐标取今陇西县示意，非古郡治。"
+  },
+  {
+    "id": "jin-cheng",
+    "name": "金城",
+    "aliases": [
+      "金城",
+      "金城郡",
+      "兰州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "兰州市",
+    "admin1": "甘肃省",
+    "admin2": "兰州市",
+    "lat": 36.0606,
+    "lng": 103.8268,
+    "precision": "city",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「兰州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%B0%E5%B7%9E%E5%B8%82"
+    },
+    "note": "汉金城郡治允吾，后移金城（今兰州）。坐标取今兰州市区示意。"
+  },
+  {
+    "id": "zhang-ye",
+    "name": "张掖",
+    "aliases": [
+      "張掖",
+      "张掖郡",
+      "甘州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "十六国",
+        "startYear": 304,
+        "endYear": 439
+      }
+    ],
+    "modernName": "张掖市",
+    "admin1": "甘肃省",
+    "admin2": "张掖市",
+    "lat": 38.9248,
+    "lng": 100.4499,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「张掖市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%A0%E6%8E%96%E5%B8%82"
+    },
+    "note": "河西四郡之一，取“张国臂掖”之意。坐标取今张掖市中心。"
+  },
+  {
+    "id": "jiu-quan",
+    "name": "酒泉",
+    "aliases": [
+      "酒泉",
+      "酒泉郡",
+      "肃州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "十六国",
+        "startYear": 304,
+        "endYear": 439
+      }
+    ],
+    "modernName": "酒泉市",
+    "admin1": "甘肃省",
+    "admin2": "酒泉市",
+    "lat": 39.7334,
+    "lng": 98.4943,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「酒泉市」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%85%92%E6%B3%89%E5%B8%82"
+    },
+    "note": "河西四郡之一。坐标取今酒泉市中心。"
+  },
+  {
+    "id": "dun-huang",
+    "name": "敦煌",
+    "aliases": [
+      "敦煌",
+      "敦煌郡",
+      "沙州"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "敦煌市",
+    "admin1": "甘肃省",
+    "admin2": "酒泉市",
+    "lat": 40.1411,
+    "lng": 94.6639,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「敦煌市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%95%A6%E7%85%8C%E5%B8%82"
+    },
+    "note": "河西四郡之一，丝绸之路重镇。坐标取今敦煌市中心。"
+  },
+  {
+    "id": "yu-men-guan",
+    "name": "玉门关",
+    "aliases": [
+      "玉門關",
+      "小方盘城",
+      "小方盤城"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "敦煌市",
+    "admin1": "甘肃省",
+    "admin2": "酒泉市",
+    "lat": 40.3535,
+    "lng": 93.8641,
+    "precision": "site",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「玉门关」",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%89%E9%97%A8%E5%85%B3"
+    },
+    "note": "汉玉门关遗址（小方盘城）在敦煌西北。坐标取遗址点，精度为遗址级。"
+  },
+  {
+    "id": "yang-guan",
+    "name": "阳关",
+    "aliases": [
+      "陽關",
+      "阳关遗址",
+      "陽關遺址"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "敦煌市",
+    "admin1": "甘肃省",
+    "admin2": "酒泉市",
+    "lat": 39.9273,
+    "lng": 94.059,
+    "precision": "site",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「阳关」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%B3%E5%85%B3"
+    },
+    "note": "汉阳关遗址在敦煌西南。坐标取遗址点，精度为遗址级。"
+  },
+  {
+    "id": "lou-lan",
+    "name": "楼兰",
+    "aliases": [
+      "樓蘭",
+      "楼兰古城",
+      "樓蘭古城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "魏晋",
+        "startYear": 220,
+        "endYear": 420
+      }
+    ],
+    "modernName": "若羌县",
+    "admin1": "新疆维吾尔自治区",
+    "admin2": "巴音郭楞蒙古自治州",
+    "lat": 40.527,
+    "lng": 89.866,
+    "precision": "site",
+    "confidence": 0.7,
+    "source": {
+      "label": "今地考古资料（楼兰古城遗址）"
+    },
+    "note": "楼兰古城遗址在罗布泊西北、若羌县境内。坐标取遗址点，精度为遗址级。"
+  },
+  {
+    "id": "gao-chang",
+    "name": "高昌",
+    "aliases": [
+      "高昌",
+      "高昌国",
+      "高昌故城",
+      "高昌郡"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "十六国",
+        "startYear": 304,
+        "endYear": 439
+      },
+      {
+        "label": "南北朝",
+        "startYear": 420,
+        "endYear": 589
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "吐鲁番市",
+    "admin1": "新疆维吾尔自治区",
+    "admin2": "吐鲁番市",
+    "lat": 42.85,
+    "lng": 89.53,
+    "precision": "site",
+    "confidence": 0.75,
+    "source": {
+      "label": "今地考古资料（高昌故城）"
+    },
+    "note": "高昌故城在今吐鲁番市东、火焰山南麓。坐标取故城遗址，精度为遗址级。"
+  },
+  {
+    "id": "qiu-ci",
+    "name": "龟兹",
+    "aliases": [
+      "龜茲",
+      "龟兹",
+      "库车",
+      "庫車"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "库车市",
+    "admin1": "新疆维吾尔自治区",
+    "admin2": "阿克苏地区",
+    "lat": 41.72,
+    "lng": 82.96,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "今地地方志（库车）"
+    },
+    "note": "古龟兹国以今库车为中心。坐标取库车市区，精度按市级。"
+  },
+  {
+    "id": "shu-le",
+    "name": "疏勒",
+    "aliases": [
+      "疏勒",
+      "疏勒国",
+      "喀什",
+      "喀什噶尔"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "喀什市",
+    "admin1": "新疆维吾尔自治区",
+    "admin2": "喀什地区",
+    "lat": 39.4681,
+    "lng": 75.9938,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「喀什市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%96%80%E4%BB%80%E5%B8%82"
+    },
+    "note": "古疏勒国以今喀什为中心。坐标取喀什市区，精度按市级。"
+  },
+  {
+    "id": "yu-tian",
+    "name": "于阗",
+    "aliases": [
+      "于闐",
+      "于阗国",
+      "和田",
+      "和闐"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "和田市",
+    "admin1": "新疆维吾尔自治区",
+    "admin2": "和田地区",
+    "lat": 37.1167,
+    "lng": 79.9167,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「和田市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E5%B8%82"
+    },
+    "note": "古于阗国以今和田为中心。坐标取和田市区，精度按市级。"
+  },
+  {
+    "id": "lun-tai",
+    "name": "轮台",
+    "aliases": [
+      "輪台",
+      "轮台国",
+      "轮台县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "唐",
+        "startYear": 618,
+        "endYear": 907
+      }
+    ],
+    "modernName": "轮台县",
+    "admin1": "新疆维吾尔自治区",
+    "admin2": "巴音郭楞蒙古自治州",
+    "lat": 41.7667,
+    "lng": 84.1667,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「轮台县」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%BD%AE%E5%8F%B0%E5%8E%BF"
+    },
+    "note": "汉轮台屯田、唐轮台县位置有异说。坐标取今轮台县治，精度为县级。"
+  },
+  {
+    "id": "yun-zhong",
+    "name": "云中",
+    "aliases": [
+      "雲中",
+      "云中郡",
+      "云中城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "战国赵",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "托克托县",
+    "admin1": "内蒙古自治区",
+    "admin2": "呼和浩特市",
+    "lat": 40.2833,
+    "lng": 111.2,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「托克托县」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%89%98%E5%85%8B%E6%89%98%E5%8E%BF"
+    },
+    "note": "汉云中郡治云中，在今托克托县一带。坐标取今县治，精度为县级。"
+  },
+  {
+    "id": "jiu-yuan",
+    "name": "九原",
+    "aliases": [
+      "九原",
+      "九原郡",
+      "五原"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "战国赵",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "包头市",
+    "admin1": "内蒙古自治区",
+    "admin2": "包头市",
+    "lat": 40.6213,
+    "lng": 109.9532,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「包头市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8C%85%E5%A4%B4%E5%B8%82"
+    },
+    "note": "秦九原郡、汉五原郡在今包头一带。坐标取今包头市区示意，精度按市级。"
+  },
+  {
+    "id": "yan-men",
+    "name": "雁门",
+    "aliases": [
+      "雁門",
+      "雁门关",
+      "雁門關",
+      "雁门郡"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "战国赵",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      }
+    ],
+    "modernName": "代县",
+    "admin1": "山西省",
+    "admin2": "忻州市",
+    "lat": 39.18,
+    "lng": 112.86,
+    "precision": "site",
+    "confidence": 0.75,
+    "source": {
+      "label": "今地地方志（代县雁门关）"
+    },
+    "note": "雁门关在今代县北雁门山，战国汉雁门郡辖境更广。坐标取雁门关附近，精度为遗址级。"
+  },
+  {
+    "id": "dai-jun",
+    "name": "代郡",
+    "aliases": [
+      "代郡",
+      "代国",
+      "代縣"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "战国赵",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      }
+    ],
+    "modernName": "蔚县",
+    "admin1": "河北省",
+    "admin2": "张家口市",
+    "lat": 39.8333,
+    "lng": 114.5667,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「蔚县」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%9A%E5%8E%BF"
+    },
+    "note": "古代郡在今蔚县一带。坐标取今蔚县治示意，精度为县级。"
+  },
+  {
+    "id": "shang-gu",
+    "name": "上谷",
+    "aliases": [
+      "上谷",
+      "上谷郡",
+      "沮阳"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "战国燕",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "怀来县",
+    "admin1": "河北省",
+    "admin2": "张家口市",
+    "lat": 40.4167,
+    "lng": 115.5167,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "维基百科「怀来县」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%80%E6%9D%A5%E5%8E%BF"
+    },
+    "note": "上谷郡治沮阳，在今怀来县一带。坐标取今怀来县治示意，精度为县级。"
+  },
+  {
+    "id": "yu-yang",
+    "name": "渔阳",
+    "aliases": [
+      "漁陽",
+      "渔阳郡",
+      "渔阳城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "战国燕",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "北京市密云区",
+    "admin1": "北京市",
+    "admin2": "密云区",
+    "lat": 40.38,
+    "lng": 116.84,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "今地地方志（密云渔阳）"
+    },
+    "note": "渔阳郡治渔阳，在今北京密云一带。坐标取密云区中心示意，精度为县级。"
+  },
+  {
+    "id": "you-bei-ping",
+    "name": "右北平",
+    "aliases": [
+      "右北平",
+      "右北平郡",
+      "平刚"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "战国燕",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      }
+    ],
+    "modernName": "宁城县",
+    "admin1": "内蒙古自治区",
+    "admin2": "赤峰市",
+    "lat": 41.5833,
+    "lng": 119.35,
+    "precision": "county",
+    "confidence": 0.5,
+    "source": {
+      "label": "维基百科「宁城县」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%81%E5%9F%8E%E5%8E%BF"
+    },
+    "note": "右北平郡治平刚，今地有宁城、平泉等说。坐标取宁城县治示意，存疑。"
+  },
+  {
+    "id": "liao-dong",
+    "name": "辽东",
+    "aliases": [
+      "遼東",
+      "辽东郡",
+      "襄平"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "战国燕",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "辽阳市",
+    "admin1": "辽宁省",
+    "admin2": "辽阳市",
+    "lat": 41.279,
+    "lng": 123.176,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「辽阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%BE%BD%E9%98%B3%E5%B8%82"
+    },
+    "note": "辽东郡治襄平，即今辽阳市。坐标取今辽阳市中心，示意郡域中心。"
+  },
+  {
+    "id": "xiang-ping",
+    "name": "襄平",
+    "aliases": [
+      "襄平",
+      "辽东城",
+      "辽阳"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "战国燕",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "辽阳市",
+    "admin1": "辽宁省",
+    "admin2": "辽阳市",
+    "lat": 41.279,
+    "lng": 123.176,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「辽阳市」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%BE%BD%E9%98%B3%E5%B8%82"
+    },
+    "note": "襄平为辽东郡治，今辽阳市区。坐标取今市中心。"
+  },
+  {
+    "id": "le-lang",
+    "name": "乐浪",
+    "aliases": [
+      "樂浪",
+      "乐浪郡",
+      "平壤"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "魏晋",
+        "startYear": 220,
+        "endYear": 420
+      }
+    ],
+    "modernName": "平壤",
+    "admin1": "朝鲜",
+    "admin2": "平壤市",
+    "lat": 39.0167,
+    "lng": 125.7475,
+    "precision": "city",
+    "confidence": 0.65,
+    "source": {
+      "label": "维基百科「平壤」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%A3%A4"
+    },
+    "note": "汉乐浪郡治朝鲜县，在今平壤一带。坐标取今平壤市中心示意，存疑。"
+  },
+  {
+    "id": "kuai-ji",
+    "name": "会稽",
+    "aliases": [
+      "會稽",
+      "会稽郡",
+      "山阴",
+      "山陰"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "东晋南朝",
+        "startYear": 317,
+        "endYear": 589
+      }
+    ],
+    "modernName": "绍兴市",
+    "admin1": "浙江省",
+    "admin2": "绍兴市",
+    "lat": 30.0511,
+    "lng": 120.5833,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「绍兴市」",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%8D%E5%85%B4%E5%B8%82"
+    },
+    "note": "会稽郡治山阴，今绍兴市。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "wu-jun",
+    "name": "吴郡",
+    "aliases": [
+      "吳郡",
+      "吴县",
+      "吳縣",
+      "苏州"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      },
+      {
+        "label": "东晋南朝",
+        "startYear": 317,
+        "endYear": 589
+      }
+    ],
+    "modernName": "苏州市",
+    "admin1": "江苏省",
+    "admin2": "苏州市",
+    "lat": 31.3,
+    "lng": 120.6194,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「苏州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E5%B7%9E%E5%B8%82"
+    },
+    "note": "吴郡治吴县，今苏州市区。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "dan-yang",
+    "name": "丹阳",
+    "aliases": [
+      "丹陽",
+      "丹阳郡",
+      "宛陵",
+      "宣城"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "宣城市",
+    "admin1": "安徽省",
+    "admin2": "宣城市",
+    "lat": 30.939,
+    "lng": 118.759,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「宣城市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%A3%E5%9F%8E%E5%B8%82"
+    },
+    "note": "汉丹阳郡治宛陵（今宣城），非今江苏丹阳市。坐标取今宣城市，示意郡治。"
+  },
+  {
+    "id": "yu-zhang",
+    "name": "豫章",
+    "aliases": [
+      "豫章",
+      "豫章郡",
+      "南昌"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "南昌市",
+    "admin1": "江西省",
+    "admin2": "南昌市",
+    "lat": 28.683,
+    "lng": 115.858,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "维基百科「南昌市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%98%8C%E5%B8%82"
+    },
+    "note": "豫章郡治南昌，今南昌市。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "chang-sha",
+    "name": "长沙",
+    "aliases": [
+      "長沙",
+      "长沙郡",
+      "湘州"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "长沙市",
+    "admin1": "湖南省",
+    "admin2": "长沙市",
+    "lat": 28.228,
+    "lng": 112.939,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「长沙市」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E6%B2%99%E5%B8%82"
+    },
+    "note": "长沙郡治临湘，今长沙市。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "gui-yang",
+    "name": "桂阳",
+    "aliases": [
+      "桂陽",
+      "桂阳郡",
+      "郴州"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "郴州市",
+    "admin1": "湖南省",
+    "admin2": "郴州市",
+    "lat": 25.77,
+    "lng": 113.016,
+    "precision": "city",
+    "confidence": 0.75,
+    "source": {
+      "label": "维基百科「郴州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E9%83%B4%E5%B7%9E%E5%B8%82"
+    },
+    "note": "桂阳郡治郴县，今郴州市。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "ling-ling",
+    "name": "零陵",
+    "aliases": [
+      "零陵",
+      "零陵郡",
+      "永州"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "永州市",
+    "admin1": "湖南省",
+    "admin2": "永州市",
+    "lat": 26.42,
+    "lng": 111.613,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「永州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B0%B8%E5%B7%9E%E5%B8%82"
+    },
+    "note": "零陵郡治泉陵，今永州市。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "wu-ling",
+    "name": "武陵",
+    "aliases": [
+      "武陵",
+      "武陵郡",
+      "常德"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "常德市",
+    "admin1": "湖南省",
+    "admin2": "常德市",
+    "lat": 29.031,
+    "lng": 111.699,
+    "precision": "city",
+    "confidence": 0.7,
+    "source": {
+      "label": "维基百科「常德市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B8%B8%E5%BE%B7%E5%B8%82"
+    },
+    "note": "武陵郡治临沅，今常德市。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "nan-hai",
+    "name": "南海",
+    "aliases": [
+      "南海",
+      "南海郡",
+      "番禺"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "广州市",
+    "admin1": "广东省",
+    "admin2": "广州市",
+    "lat": 23.13,
+    "lng": 113.26,
+    "precision": "city",
+    "confidence": 0.85,
+    "source": {
+      "label": "维基百科「广州市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E5%B8%82"
+    },
+    "note": "南海郡治番禺，今广州市区。坐标取今市中心，示意郡域中心。"
+  },
+  {
+    "id": "gui-lin",
+    "name": "桂林",
+    "aliases": [
+      "桂林",
+      "桂林郡",
+      "始安"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "贵港市",
+    "admin1": "广西壮族自治区",
+    "admin2": "贵港市",
+    "lat": 23.112,
+    "lng": 109.599,
+    "precision": "city",
+    "confidence": 0.6,
+    "source": {
+      "label": "维基百科「贵港市」",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B4%B5%E6%B8%AF%E5%B8%82"
+    },
+    "note": "秦桂林郡治布山（今贵港市）说较通行；今桂林市为后世地名。坐标取贵港市示意，存疑。"
+  },
+  {
+    "id": "xiang-jun",
+    "name": "象郡",
+    "aliases": [
+      "象郡",
+      "象林",
+      "日南"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -206
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "南宁市",
+    "admin1": "广西壮族自治区",
+    "admin2": "南宁市",
+    "lat": 22.8167,
+    "lng": 108.3275,
+    "precision": "city",
+    "confidence": 0.45,
+    "source": {
+      "label": "维基百科「南宁市」",
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E5%AE%81%E5%B8%82"
+    },
+    "note": "秦象郡位置与治所有临尘、象林等说，争议较大。坐标取今南宁示意，存疑。"
+  },
+  {
+    "id": "dian-chi",
+    "name": "滇池",
+    "aliases": [
+      "滇池",
+      "滇国",
+      "滇國",
+      "晋宁"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "战国",
+        "startYear": -403,
+        "endYear": -222
+      },
+      {
+        "label": "西汉",
+        "startYear": -202,
+        "endYear": 8
+      }
+    ],
+    "modernName": "昆明市晋宁区",
+    "admin1": "云南省",
+    "admin2": "昆明市",
+    "lat": 24.68,
+    "lng": 102.75,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "今地地方志（晋宁滇池）"
+    },
+    "note": "古滇国中心在滇池南岸，今昆明市晋宁区一带。坐标取晋宁区示意，精度为县级。"
+  },
+  {
+    "id": "jian-ning",
+    "name": "建宁",
+    "aliases": [
+      "建寧",
+      "建宁郡",
+      "曲靖"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "三国蜀汉",
+        "startYear": 221,
+        "endYear": 263
+      },
+      {
+        "label": "东晋",
+        "startYear": 317,
+        "endYear": 420
+      }
+    ],
+    "modernName": "曲靖市",
+    "admin1": "云南省",
+    "admin2": "曲靖市",
+    "lat": 25.491,
+    "lng": 103.796,
+    "precision": "city",
+    "confidence": 0.6,
+    "source": {
+      "label": "维基百科「曲靖市」",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%B2%E9%9D%96%E5%B8%82"
+    },
+    "note": "蜀汉建宁郡治味县，今曲靖一带。坐标取今曲靖市示意，存疑。"
+  },
+  {
+    "id": "yong-chang",
+    "name": "永昌",
+    "aliases": [
+      "永昌",
+      "永昌郡",
+      "保山"
+    ],
+    "category": "region",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "保山市",
+    "admin1": "云南省",
+    "admin2": "保山市",
+    "lat": 25.112,
+    "lng": 99.161,
+    "precision": "city",
+    "confidence": 0.65,
+    "source": {
+      "label": "维基百科「保山市」",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E5%B1%B1%E5%B8%82"
+    },
+    "note": "永昌郡治不韦，今保山一带；为西南丝绸之路要冲。坐标取今保山市示意。"
+  },
+  {
+    "id": "hu-lu-gu",
+    "name": "葫芦谷",
+    "aliases": [
+      "葫蘆谷",
+      "葫芦口",
+      "葫蘆口"
+    ],
+    "category": "pass",
+    "periods": [
+      {
+        "label": "东汉末",
+        "startYear": 184,
+        "endYear": 220
+      }
+    ],
+    "modernName": "宜昌市",
+    "admin1": "湖北省",
+    "admin2": "宜昌市",
+    "lat": 30.7,
+    "lng": 111.29,
+    "precision": "city",
+    "confidence": 0.25,
+    "source": {
+      "label": "《三国演义》小说地名（今地待考）"
+    },
+    "note": "葫芦谷为《三国演义》所写张飞伏兵处，在今宜昌一带；具体位置待考。坐标取宜昌附近示意，精度为市级，低置信。"
+  },
+  {
+    "id": "yi-du",
+    "name": "宜都",
+    "aliases": [
+      "宜都",
+      "宜都郡",
+      "夷道",
+      "枝城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "东汉",
+        "startYear": 25,
+        "endYear": 220
+      },
+      {
+        "label": "三国",
+        "startYear": 220,
+        "endYear": 280
+      }
+    ],
+    "modernName": "宜都市",
+    "admin1": "湖北省",
+    "admin2": "宜昌市",
+    "lat": 30.38,
+    "lng": 111.45,
+    "precision": "county",
+    "confidence": 0.6,
+    "source": {
+      "label": "今地地方志（宜都枝城）"
+    },
+    "note": "宜都郡治夷道，约今宜都市（枝城）一带。坐标取今宜都市区示意，精度为县级。"
+  },
+  {
+    "id": "yang-xia",
+    "name": "陽夏",
+    "aliases": [
+      "阳夏",
+      "阳夏县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "太康县",
+    "admin1": "河南省",
+    "admin2": "周口市",
+    "lat": 34.063,
+    "lng": 114.853,
+    "precision": "county",
+    "confidence": 0.8,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "秦汉阳夏县约今河南太康县；坐标按今县定位，非遗址级。"
+  },
+  {
+    "id": "gu-ling",
+    "name": "固陵",
+    "aliases": [
+      "固陵县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "太康县",
+    "admin1": "河南省",
+    "admin2": "周口市",
+    "lat": 33.95,
+    "lng": 114.86,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "固陵在阳夏以南，约今河南太康南、淮阳西北一带；具体遗址有争议，取太康南近似。"
+  },
+  {
+    "id": "gai-xia",
+    "name": "垓下",
+    "aliases": [
+      "垓下聚"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "固镇县",
+    "admin1": "安徽省",
+    "admin2": "蚌埠市",
+    "lat": 33.35,
+    "lng": 117.55,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "今安徽固镇濠城说与灵璧说并存，取固镇说近似，不作考古坐标。"
+  },
+  {
+    "id": "wu-jiang",
+    "name": "烏江",
+    "aliases": [
+      "乌江",
+      "乌江亭"
+    ],
+    "category": "ferry",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "和县",
+    "admin1": "安徽省",
+    "admin2": "马鞍山市",
+    "lat": 31.72,
+    "lng": 118.47,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "乌江亭约今安徽和县乌江镇，长江北岸；位置按今镇近似。"
+  },
+  {
+    "id": "yin-ling",
+    "name": "陰陵",
+    "aliases": [
+      "阴陵",
+      "阴陵县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "定远县",
+    "admin1": "安徽省",
+    "admin2": "滁州市",
+    "lat": 32.6,
+    "lng": 117.5,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "秦汉阴陵县约今安徽定远县西北；具体城址有争议。"
+  },
+  {
+    "id": "dong-cheng",
+    "name": "東城",
+    "aliases": [
+      "东城",
+      "东城县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "定远县",
+    "admin1": "安徽省",
+    "admin2": "滁州市",
+    "lat": 32.4,
+    "lng": 118.1,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "秦汉东城县约今安徽定远县东南；具体城址有争议。"
+  },
+  {
+    "id": "cheng-fu",
+    "name": "城父",
+    "aliases": [
+      "城父县"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "亳州市",
+    "admin1": "安徽省",
+    "admin2": "亳州市",
+    "lat": 33.6,
+    "lng": 116,
+    "precision": "county",
+    "confidence": 0.65,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "城父约今安徽亳州谯城区城父镇；坐标按今镇近似。"
+  },
+  {
+    "id": "gu-cheng",
+    "name": "穀城",
+    "aliases": [
+      "谷城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "秦",
+        "startYear": -221,
+        "endYear": -207
+      },
+      {
+        "label": "西汉",
+        "startYear": -206,
+        "endYear": 25
+      }
+    ],
+    "modernName": "平阴县",
+    "admin1": "山东省",
+    "admin2": "济南市",
+    "lat": 36.29,
+    "lng": 116.45,
+    "precision": "county",
+    "confidence": 0.55,
+    "source": {
+      "label": "《史记·项羽本纪》地望考订 + 今地地方志/公开资料（近似）"
+    },
+    "note": "楚汉“睢阳以北至穀城”之穀城地望有争议，取今山东平阴东阿一带近似。"
+  },
+  {
+    "id": "xuan-fu",
+    "name": "宣府",
+    "aliases": [
+      "宣府镇",
+      "宣府卫",
+      "宣化"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "明",
+        "startYear": 1368,
+        "endYear": 1644
+      }
+    ],
+    "modernName": "宣化区",
+    "admin1": "河北省",
+    "admin2": "张家口市",
+    "lat": 40.61,
+    "lng": 115.05,
+    "precision": "city",
+    "confidence": 0.8,
+    "source": {
+      "label": "《明史·地理志》/今地地方志（近似）"
+    },
+    "note": "明宣府镇城即今河北张家口宣化区；宣府镇辖区远大于此，点位取镇城。"
+  },
+  {
+    "id": "huai-lai",
+    "name": "怀来",
+    "aliases": [
+      "怀来卫",
+      "怀来城"
+    ],
+    "category": "city",
+    "periods": [
+      {
+        "label": "明",
+        "startYear": 1368,
+        "endYear": 1644
+      }
+    ],
+    "modernName": "怀来县",
+    "admin1": "河北省",
+    "admin2": "张家口市",
+    "lat": 40.4,
+    "lng": 115.52,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "《明史·地理志》/今地地方志（近似）"
+    },
+    "note": "明怀来卫城约今河北怀来县旧城；土木堡在其东。"
+  },
+  {
+    "id": "tu-mu-bao",
+    "name": "土木堡",
+    "aliases": [
+      "土木",
+      "土木驿"
+    ],
+    "category": "battlefield",
+    "periods": [
+      {
+        "label": "明",
+        "startYear": 1368,
+        "endYear": 1644
+      }
+    ],
+    "modernName": "怀来县",
+    "admin1": "河北省",
+    "admin2": "张家口市",
+    "lat": 40.38,
+    "lng": 115.62,
+    "precision": "county",
+    "confidence": 0.7,
+    "source": {
+      "label": "《明史·地理志》/今地地方志（近似）"
+    },
+    "note": "土木堡在今河北怀来县东土木镇一带；具体堡址有争议。"
+  }
+]

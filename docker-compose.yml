@@ -1,0 +1,40 @@
+services:
+  history-atlas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: history-atlas:local
+    container_name: history-atlas
+    ports:
+      # Loopback by default: the app has no authentication. Put it behind
+      # an authenticated reverse proxy before exposing it to a network.
+      - "127.0.0.1:3210:3210"
+    environment:
+      PORT: "3210"
+      HOSTNAME: "0.0.0.0"
+      DATA_DIR: /data
+      NEXT_TELEMETRY_DISABLED: "1"
+      # 反向代理到公网域名时取消注释并填写
+      # PUBLIC_ORIGIN: "https://history.example.com"
+      # 需要连接内网 OpenAI 兼容服务时：
+      # ALLOW_PRIVATE_LLM: "1"
+    volumes:
+      - history-atlas-data:/data
+    restart: unless-stopped
+    init: true
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:'+(process.env.PORT||3210)+'/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+
+volumes:
+  history-atlas-data:
+    name: history-atlas-data

@@ -1,0 +1,41 @@
+history-atlas 第三方数据与软件归属
+
+## 底图数据
+
+Natural Earth — https://www.naturalearthdata.com/
+Public Domain。本项目使用其国家、省界、河流、湖泊矢量数据，经裁剪与简化后存放于 public/basemap/。
+
+## 现代地名数据
+
+GeoNames — https://www.geonames.org/
+Creative Commons Attribution 4.0 License (CC BY 4.0)。
+现代地名子集由 scripts/fetch-geonames.mjs 生成，存放于 assets/gazetteer/modern-places.json。
+Copyright (c) GeoNames.
+
+## 繁简转换
+
+OpenCC / opencc-js — https://github.com/nk2028/opencc-js
+Apache License 2.0。仅用于地名匹配，不修改原文展示。
+
+## 地图渲染
+
+MapLibre GL JS — https://maplibre.org/
+BSD 3-Clause License。
+
+## 内置示例文本
+
+《三国演义》为公版作品。内置节选仅用于功能演示，来源在示例书中标注。
+
+## 古地名数据
+
+项目自建，逐条标注来源说明；未复制《中国历史地图集》、CHGIS 或其他受限数据集。
+
+## 字体
+
+Noto Serif SC — https://fonts.google.com/noto/specimen/Noto+Serif+SC
+SIL Open Font License 1.1。通过 `@fontsource-variable/noto-serif-sc` 自托管，无运行时字体请求。
+
+## 代码许可
+
+Copyright (c) 2026 Jack Lee.
+代码采用 MIT License，允许使用、修改、分发和商业使用；第三方组件与数据仍适用各自的许可，详见上文。

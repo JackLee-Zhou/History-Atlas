@@ -1,0 +1,29 @@
+# Dependencies and build artifacts are rebuilt inside the image.
+node_modules
+.next
+out
+build
+
+# Never bake local user data, keys, or test artifacts into the image.
+.data
+.data-e2e
+.next-e2e
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea
+.vscode
+npm-debug.log*
+test-results
+playwright-report
+coverage
+
+# Local caches
+.npm-cache
+*.tsbuildinfo
+
+# Repository metadata
+.git
+.github

@@ -21,11 +21,11 @@
 
 **阅读 + 舆图 / Reader and atlas**
 
-![阅读器与舆图：左侧原文，右侧势力、路线、控制区与时间幕](docs/screenshots/reader-map.jpg)
+![《明朝那些事儿》阅读器与舆图：左侧原文，右侧势力、路线、控制区与时间幕](docs/screenshots/reader-map.jpg)
 
 **点开地图要素看原文证据 / Source-linked evidence**
 
-![赤壁地点详情：今地、精度、置信度与对应原文引文](docs/screenshots/map-evidence.jpg)
+![《明朝那些事儿》采石地点详情：今地、精度、置信度与对应原文引文](docs/screenshots/map-evidence.jpg)
 
 ## 功能
 

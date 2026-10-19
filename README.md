@@ -13,6 +13,20 @@
 
 **中文** | [English](#english)
 
+## 截图 / Screenshots
+
+**书架 / Bookshelf**
+
+![书架主页：继续阅读条与书目网格](docs/screenshots/home.jpg)
+
+**阅读 + 舆图 / Reader and atlas**
+
+![阅读器与舆图：左侧原文，右侧势力、路线、控制区与时间幕](docs/screenshots/reader-map.jpg)
+
+**点开地图要素看原文证据 / Source-linked evidence**
+
+![赤壁地点详情：今地、精度、置信度与对应原文引文](docs/screenshots/map-evidence.jpg)
+
 ## 功能
 
 - **书架主页**：中性纸白版面、继续阅读条、五列书目网格。书封由程序生成，导入新书无需上传封面。
